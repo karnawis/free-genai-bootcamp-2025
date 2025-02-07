@@ -2,7 +2,7 @@
 
 ### Which Model
 
-Claude Sonnet 3.5 (2025 Q1)
+Claude Sonnet 3.5 (2025 Q1) through Github Pilot
 
 > I don't have a paid version of Claude Sonnet, and I'm going to consider it to use projects.
 
