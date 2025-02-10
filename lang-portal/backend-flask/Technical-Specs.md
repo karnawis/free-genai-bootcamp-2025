@@ -66,39 +66,239 @@ The following API endpoints will be required:
 - **Dashboard Endpoints**
 
   - `GET /api/dashboard/last_study_session`: Retrieve the last study session
-  - `GET /api/dashboard/study_progress`: Retrieve study progress
-  - `GET /api/dashboard/quick_stats`: Retrieve quick statistics
+    **Response:**
 
+````json
+{
+  "id": 1,
+  "group_id": 2,
+  "group_name": "Days of the week"
+  "created_at": "2025-02-10T10:00:00Z",
+  "study_activity_id": 3
+}
+
+  - `GET /api/dashboard/study_progress`: Retrieve study progress
+
+```json
+{
+  "total_words_studied": 124,
+  "mastery_progress": 0.75
+}
+
+````
+
+- `GET /api/dashboard/quick_stats`: Retrieve quick statistics
 - **Study Activities Endpoints**
 
-  - `GET /api/study_activities/:id`: Retrieve a specific study activity
-  - `GET /api/study_activities/:id/study_sessions`: Retrieve study sessions for a specific activity
-  - `POST /api/study_activities`: Create a new study activity
-    - Required params: `group_id`, `study_activity_id`
+```json
+{
+  "id": 1,
+  "study_session_id": 2,
+  "group_id": 3,
+  "created_at": "2025-02-10T10:00:00Z"
+}
+```
+
+- `GET /api/study_activities/:id`: Retrieve a specific study activity
+
+```json
+{
+  "id": 1,
+  "study_session_id": 2,
+  "group_id": 3,
+  "created_at": "2025-02-10T10:00:00Z"
+}
+```
+
+- `GET /api/study_activities/:id/study_sessions`: Retrieve study sessions for a specific activity
+
+- `POST /api/study_activities`: Create a new study activity
+
+```json
+{
+  "group_id": 2,
+  "study_activity_id": 3
+}
+```
+
+- Required params: `group_id`, `study_activity_id`
+
+```json
+{
+  "id": 1,
+  "study_session_id": 2,
+  "group_id": 3,
+  "created_at": "2025-02-10T10:00:00Z"
+}
+```
 
 - **Words Endpoints**
 
   - `GET /api/words`: Retrieve all words (pagination with 100 items per page)
+
+  ```json
+  [
+    {
+      "id": 1,
+      "french": "maison",
+      "pronunciation": "may-zohn",
+      "english": "house",
+      "parts": {}
+    },
+    {
+      "id": 2,
+      "french": "chat",
+      "pronunciation": "shah",
+      "english": "cat",
+      "parts": {}
+    }
+  ]
+  ```
+
   - `GET /api/words/:id`: Retrieve a specific word
+
+  ```json
+  {
+    "id": 1,
+    "french": "maison",
+    "pronunciation": "may-zohn",
+    "english": "house",
+    "parts": {}
+  }
+  ```
 
 - **Groups Endpoints**
 
   - `GET /api/groups`: Retrieve all groups (pagination with 100 items per page)
-  - `GET /api/groups/:id`: Retrieve a specific group
-  - `GET /api/groups/:id/words`: Retrieve words in a specific group
-  - `GET /api/groups/:id/study_sessions`: Retrieve study sessions for a specific group
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Basic Vocabulary"
+  },
+  {
+    "id": 2,
+    "name": "Advanced Vocabulary"
+  }
+]
+```
+
+- `GET /api/groups/:id`: Retrieve a specific group
+
+```json
+[
+  {
+    "id": 1,
+    "name": "Basic Vocabulary"
+  },
+  {
+    "id": 2,
+    "name": "Advanced Vocabulary"
+  }
+]
+```
+
+- `GET /api/groups/:id/words`: Retrieve words in a specific group
+
+```json
+{
+  "id": 1,
+  "name": "Basic Vocabulary"
+}
+```
+
+- `GET /api/groups/:id/study_sessions`: Retrieve study sessions for a specific group
+
+```json
+[
+  {
+    "id": 1,
+    "group_id": 2,
+    "created_at": "2025-02-10T10:00:00Z",
+    "study_activity_id": 3
+  },
+  {
+    "id": 2,
+    "group_id": 2,
+    "created_at": "2025-02-11T10:00:00Z",
+    "study_activity_id": 3
+  }
+]
+```
 
 - **Study Sessions Endpoints**
 
   - `GET /api/study_sessions`: Retrieve all study sessions (pagination with 100 items per page)
+
+  ```json
+  [
+    {
+      "id": 1,
+      "group_id": 2,
+      "created_at": "2025-02-10T10:00:00Z",
+      "study_activity_id": 3
+    },
+    {
+      "id": 2,
+      "group_id": 2,
+      "created_at": "2025-02-11T10:00:00Z",
+      "study_activity_id": 3
+    }
+  ]
+  ```
+
   - `GET /api/study_sessions/:id`: Retrieve a specific study session
+
+  ```json
+  {
+    "id": 1,
+    "group_id": 2,
+    "created_at": "2025-02-10T10:00:00Z",
+    "study_activity_id": 3
+  }
+  ```
+
   - `GET /api/study_sessions/:id/words`: Retrieve words reviewed in a specific study session
+
+  ```json
+  [
+    {
+      "id": 1,
+      "french": "maison",
+      "pronunciation": "may-zohn",
+      "english": "house",
+      "parts": {}
+    },
+    {
+      "id": 2,
+      "french": "chat",
+      "pronunciation": "shah",
+      "english": "cat",
+      "parts": {}
+    }
+  ]
+  ```
 
 - **Reset Endpoints**
 
   - `POST /api/reset_history`: Reset study history
+
+  ```json
+  {
+    "status": "success",
+    "message": "Study history reset successfully."
+  }
+  ```
+
   - `POST /api/full_reset`: Perform a full reset of the database
 
 - **Word Review Endpoint**
+
   - `POST /api/study_sessions/:id/words/:word_id/review`: Review a word in a study session
     - Required params: `correct`
+    ```json
+    {
+      "correct": true
+    }
+    ```
