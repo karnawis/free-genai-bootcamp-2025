@@ -151,6 +151,27 @@ def load(app):
       return jsonify({"error": str(e)}), 500
 
   # todo POST /study_sessions/:id/review
+  @app.route('/api/study-sessions/<int:id>/review', methods=['POST'])
+  @cross_origin()
+  def review_word(id):
+        try:
+            data = request.get_json()
+            word_id = data.get('word_id')
+            correct = data.get('correct')
+
+            if word_id is None or correct is None:
+                return jsonify({"error": "Word ID and correctness are required"}), 400
+
+            cursor = app.db.cursor()
+            cursor.execute('''
+                INSERT INTO word_review_items (word_id, study_session_id, correct, created_at)
+                VALUES (?, ?, ?, ?)
+            ''', (word_id, id, correct, datetime.now()))
+            app.db.commit()
+
+            return jsonify({"message": "Word review recorded successfully"}), 201
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
 
   @app.route('/api/study-sessions/reset', methods=['POST'])
   @cross_origin()
