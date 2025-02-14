@@ -4,7 +4,6 @@ from datetime import datetime
 import math
 
 def load(app):
-  # todo /study_sessions POST
 
   @app.route('/api/study-sessions', methods=['GET'])
   @cross_origin()
@@ -170,3 +169,28 @@ def load(app):
       return jsonify({"message": "Study history cleared successfully"}), 200
     except Exception as e:
       return jsonify({"error": str(e)}), 500
+    
+      # todo /study_sessions POST
+    
+    @app.route('/api/study-sessions', methods=['POST'])
+    @cross_origin()
+    def create_study_session():
+        try:
+            data = request.get_json()
+            group_id = data.get('group_id')
+            study_activity_id = data.get('study_activity_id')
+            created_at = datetime.now()
+
+            if not group_id or not study_activity_id:
+                return jsonify({"error": "Group ID and Study Activity ID are required"}), 400
+
+            cursor = app.db.cursor()
+            cursor.execute('''
+                INSERT INTO study_sessions (group_id, study_activity_id, created_at)
+                VALUES (?, ?, ?)
+            ''', (group_id, study_activity_id, created_at))
+            app.db.commit()
+
+            return jsonify({"message": "Study session created successfully"}), 201
+        except Exception as e:
+            return jsonify({"error": str(e)}), 500
