@@ -134,3 +134,31 @@ link to the other file
 [ollama text summarization](ollama-text-summarization.md)
 [ollama mega service](mega-service.md)
 Learn text to image inspired by [https://github.com/RahulKannan12/free-genai-bootcamp-2025/blob/main/opea/task-1/readme.md]
+
+## Homework
+
+### Describe your experience implementing OPEA: Considerations / Exceptions / Accommodations
+
+I focused on understanding OPEA (Open Platform for Enterprise AI) through practical implementation of text summarization. My exploration documentation is available in OPEA/Readme.md. I explored OLLAMA/micro service as my initial implementation.
+
+#### Technical Considerations & Challenges
+
+Model size requirements (16 GB)
+High CPU/Memory demands
+Storage constraints on MacBook development machine
+Migration needed to desktop for adequate resources
+
+#### Solutions Implemented
+
+Opted for smaller model variants
+Configured proper Docker resource allocation
+Established performance monitoring
+Migrated development to desktop environment
+
+#### Key Learnings
+
+Hardware capacity planning is crucial for AI workloads
+Development environment needs careful consideration
+Start with smaller models for initial testing
+
+I will explore mega service next as part of my continued learning journey with OPEA.
