@@ -105,7 +105,7 @@ tools = [
 ]
 
 user_language = "English"
-foreign_language = "French"
+foreign_language = "Catalan"
 
 def run_app(song_title: str, user_api_key: str):
     # Initialize the OpenAI client using the provided API key.
@@ -169,7 +169,7 @@ with gr.Blocks(js=js_func, theme=theme, css="""
     margin: 0 auto;
 }
 """) as demo:
-    gr.Markdown("<h1 style='text-align:center;'>Learn French with Songs 🎵</h1>")
+    gr.Markdown("<h1 style='text-align:center;'>Learn Catalan with Songs 🎵</h1>")
     
     # Wrap the two columns in a row for a side-by-side layout.
     with gr.Row():

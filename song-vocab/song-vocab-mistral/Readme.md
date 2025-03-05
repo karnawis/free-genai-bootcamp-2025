@@ -1,5 +1,7 @@
 ### How to run the server
 
+Stromae Papaoutai
+
 ```sh
 uvicorn main:app --reload
 ```
@@ -10,7 +12,7 @@ uvicorn main:app --reload
 curl -X POST http://localhost:8000/api/agent \
     -H "Content-Type: application/json" \
     -d '{
-        "message_request": "Find lyrics for YOASOBI Idol"
+        "message_request": "Find lyrics for Stromae Papaoutai"
     }'
 ```
 

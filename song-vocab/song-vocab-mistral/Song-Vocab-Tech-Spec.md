@@ -15,6 +15,13 @@ We want to create a program that will find lyrics off the internet for a target 
 
 ## API Endpoints
 
+/api/get_lyrics this end point takes a name of a song and returns the lyrics in text/json format
+
+### Request parameters
+
+`song_name`
+`artist_name`
+
 ### GetLyrics POST /api/agent
 
 ### Behaviour
@@ -22,6 +29,8 @@ We want to create a program that will find lyrics off the internet for a target 
 This endpoint goes to our agent which is uses the reAct framework
 so that it can go to the internet, find multiple possible version of lyrics
 and then extract out the correct lyrics and format the lyrics into vocaulary.
+
+are we using tools or an agent? do we need a single end point? is Search web a tool?
 
 Tools avaliable:
 
