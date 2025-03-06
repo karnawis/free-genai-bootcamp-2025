@@ -1,0 +1,5 @@
+{
+    "mistral_api_key": "your_actual_api_key",
+    "mistral_api_url": "https://api.mistral.com",
+    "mistral_api_version": "v1"
+}

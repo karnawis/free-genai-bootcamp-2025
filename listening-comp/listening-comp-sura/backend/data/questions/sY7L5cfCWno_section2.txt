@@ -1,0 +1,98 @@
+<question>
+Introduction:
+Un homme et une femme parlent.
+Quand est l'anniversaire de la femme ?
+
+Conversation:
+C'est une belle fleur. Oui, je l'ai reçue d'un ami pour mon anniversaire.
+Oh, c'est quand ? C'était hier, le 11. Vraiment ?
+Alors, il y a quatre 1 alignés. Oui, c'est vrai.
+
+Question:
+Quand est l'anniversaire de la femme ?
+</question>
+
+<question>
+Introduction:
+Un étudiant et une étudiante parlent à l'université.
+Où vont-ils manger ?
+
+Conversation:
+Yamada, veux-tu déjeuner ensemble ? Oui, d'accord.
+La cafétéria des étudiants a été rénovée, allons-y.
+Oui, mais il fait beau aujourd'hui, alors je veux manger dehors.
+Je suis resté en classe toute la matinée.
+Alors, achetons du pain ou un bento au magasin et allons au parc Sakura.
+Oui, faisons cela.
+
+Question:
+Où vont-ils manger ?
+</question>
+
+<question>
+Introduction:
+Une femme parle avec un employé dans un restaurant.
+Que va manger la femme ?
+
+Conversation:
+Excusez-moi, est-ce du poulet ? Non, c'est du porc.
+Je vois. Et ceci ? C'est du poisson.
+Je vois. N'avez-vous pas de plat de poulet ?
+Oui, nous en avons. Alors, je vais prendre cela.
+
+Question:
+Que va manger la femme ?
+</question>
+
+<question>
+Introduction:
+Un étudiant et une étudiante parlent à l'université.
+Combien de professeurs viendront à la fête de demain ?
+
+Conversation:
+Combien de personnes viendront à la fête de classe de demain ?
+Eh bien, trois personnes ne viendront pas, donc il y aura 24 personnes en tout.
+Je vois. Les professeurs viendront-ils aussi ?
+Oui, le professeur Yamada et le professeur Tanaka viendront.
+Et le professeur Kawashima ? Le professeur Kawashima a dit qu'il ne viendrait pas.
+Je vois.
+
+Question:
+Combien de professeurs viendront à la fête de demain ?
+</question>
+
+<question>
+Introduction:
+Un homme et une femme parlent.
+Où ira la femme demain après-midi ?
+
+Conversation:
+Veux-tu aller voir un film demain après-midi ?
+Désolée, je suis un peu occupée demain.
+Ah bon ? Oui, le matin, je vais à l'hôpital et à la poste pour envoyer des colis.
+L'après-midi, je vais écrire le rapport pour le cours du professeur Yamada.
+Tu dois le rendre lundi ? Non, le rapport est à rendre vendredi.
+Vraiment ? Alors, je veux aussi aller voir un film.
+Allons-y.
+
+Question:
+Où ira la femme demain après-midi ?
+</question>
+
+<question>
+Introduction:
+Un homme et une femme parlent à une fête.
+Que va boire la femme ?
+
+Conversation:
+Ah, Yamada, il n'y a pas de boissons.
+Que veux-tu boire ? Il y a de la bière, du vin, du jus et du thé.
+Euh, n'avez-vous pas de café ?
+Non, nous n'avons pas de café.
+Je vois. N'avez-vous pas de boisson chaude ?
+Ah, nous pouvons faire du thé chaud.
+Je vois. Alors, je vais prendre cela.
+
+Question:
+Que va boire la femme ?
+</question>
