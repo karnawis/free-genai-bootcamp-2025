@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#f8f9fa"/>
+  
+  <!-- Basic Stick Figure -->
+  <g id="character">
+    <!-- Head -->
+    <circle cx="200" cy="100" r="40" fill="none" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Silver curly hair in an updo with smoother, less angular lines -->
+    <path d="M170 85 C180 70, 220 70, 230 85" stroke="#000000" stroke-width="3" fill="none"/>
+    <!-- Curly bun/updo with smoother transitions -->
+    <path d="M185 70 C190 60, 195 58, 200 60" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M200 60 C205 58, 208 60, 215 65" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M180 75 C185 68, 188 65, 195 65" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M205 65 C212 65, 215 68, 220 75" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M190 60 C195 55, 205 55, 210 60" stroke="#000000" stroke-width="2" fill="none"/>
+    <!-- More curls with smoother curves -->
+    <path d="M175 80 C178 76, 182 76, 180 83" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M220 80 C218 76, 212 76, 215 83" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Body - elegant posture -->
+    <line x1="200" y1="140" x2="200" y2="280" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Arms -->
+    <line x1="200" y1="170" x2="160" y2="200" stroke="#000000" stroke-width="3"/>
+    <line x1="200" y1="170" x2="240" y2="200" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Legs -->
+    <line x1="200" y1="280" x2="180" y2="380" stroke="#000000" stroke-width="3"/>
+    <line x1="200" y1="280" x2="220" y2="380" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Eyes - kind expression -->
+    <circle cx="185" cy="95" r="4" fill="#000000"/>
+    <circle cx="215" cy="95" r="4" fill="#000000"/>
+    
+    <!-- Eyebrows - gentle arch -->
+    <path d="M175 85 C180 80, 190 80, 195 85" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M205 85 C210 80, 220 80, 225 85" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Warm smile -->
+    <path d="M180 115 C190 125, 210 125, 220 115" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Reading glasses -->
+    <path d="M175 95 C180 90, 190 90, 195 95" stroke="#000000" stroke-width="1" fill="none"/>
+    <path d="M205 95 C210 90, 220 90, 225 95" stroke="#000000" stroke-width="1" fill="none"/>
+    <line x1="195" y1="93" x2="205" y2="93" stroke="#000000" stroke-width="1"/>
+    
+    <!-- Classic dress outline -->
+    <path d="M180 140 L170 280 L230 280 L220 140" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M180 200 L220 200" stroke="#000000" stroke-width="1"/>
+    
+    <!-- Small pearl necklace -->
+    <circle cx="195" cy="150" r="2" fill="none" stroke="#000000" stroke-width="1"/>
+    <circle cx="200" cy="152" r="2" fill="none" stroke="#000000" stroke-width="1"/>
+    <circle cx="205" cy="150" r="2" fill="none" stroke="#000000" stroke-width="1"/>
+    
+    <!-- Plant elements -->
+    <!-- Potted plant -->
+    <rect x="260" y="230" width="40" height="30" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M265 230 C275 200, 285 200, 295 230" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M270 230 C280 210, 290 210, 300 230" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Balcony railing removed -->
+    
+    <!-- Traditional Quebec elements -->
+    <!-- Recipe book -->
+    <rect x="130" y="200" width="30" height="25" stroke="#000000" stroke-width="2" fill="none"/>
+    <text x="145" y="215" font-family="Arial, sans-serif" font-size="6" text-anchor="middle">RECETTES</text>
+    
+    <!-- Maple leaf symbol -->
+    <path d="M225 160 L230 150 L235 160 L230 170 Z" stroke="#000000" stroke-width="1" fill="none"/>
+  </g>
+</svg>

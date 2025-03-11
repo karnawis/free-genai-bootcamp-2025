@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#f8f9fa"/>
+  
+  <!-- Basic Stick Figure -->
+  <g id="character">
+    <!-- Head -->
+    <circle cx="200" cy="100" r="40" fill="none" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Light brown hair -->
+    <path d="M170 80 C180 60, 220 60, 230 80" stroke="#a67c52" stroke-width="4" fill="none"/>
+    <path d="M170 80 L170 100 L230 100 L230 80" stroke="#a67c52" stroke-width="4" fill="none"/>
+    
+    <!-- Beard - light style beard -->
+    <path d="M185 115 C190 125, 210 125, 215 115" stroke="#a67c52" stroke-width="2" fill="none"/>
+    <path d="M185 115 L180 120" stroke="#a67c52" stroke-width="2" fill="none"/>
+    <path d="M215 115 L220 120" stroke="#a67c52" stroke-width="2" fill="none"/>
+    <path d="M200 115 L200 130" stroke="#a67c52" stroke-width="2" fill="none"/>
+    <path d="M190 115 L188 125" stroke="#a67c52" stroke-width="2" fill="none"/>
+    <path d="M210 115 L212 125" stroke="#a67c52" stroke-width="2" fill="none"/>
+    
+    <!-- Body - taller proportion -->
+    <line x1="200" y1="140" x2="200" y2="320" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Arms - athletic build -->
+    <line x1="200" y1="180" x2="150" y2="220" stroke="#000000" stroke-width="4"/>
+    <line x1="200" y1="180" x2="250" y2="220" stroke="#000000" stroke-width="4"/>
+    
+    <!-- Legs - long legs for tall character -->
+    <line x1="200" y1="320" x2="160" y2="430" stroke="#000000" stroke-width="4"/>
+    <line x1="200" y1="320" x2="240" y2="430" stroke="#000000" stroke-width="4"/>
+    
+    <!-- Circular shoes -->
+    <circle cx="160" cy="435" r="10" stroke="#000000" stroke-width="2" fill="none"/>
+    <circle cx="240" cy="435" r="10" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Eyes with Ray-Ban style glasses -->
+    <!-- Ray-Ban frames - rectangular/trapezoid shape -->
+    <path d="M175 95 L195 95 L200 105 L170 105 Z" fill="none" stroke="#000000" stroke-width="2"/>
+    <path d="M205 95 L225 95 L230 105 L200 105 Z" fill="none" stroke="#000000" stroke-width="2"/>
+    <!-- Bridge of glasses -->
+    <line x1="195" y1="97" x2="205" y2="97" stroke="#000000" stroke-width="2"/>
+    <!-- Temple arms/earpieces -->
+    <line x1="175" y1="95" x2="165" y2="90" stroke="#000000" stroke-width="2"/>
+    <line x1="225" y1="95" x2="235" y2="90" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Eyes behind glasses -->
+    <circle cx="185" cy="100" r="4" fill="#000000"/>
+    <circle cx="215" cy="100" r="4" fill="#000000"/>
+    
+    <!-- Eyebrows - competitive expression -->
+    <line x1="175" y1="85" x2="195" y2="90" stroke="#000000" stroke-width="2"/>
+    <line x1="205" y1="90" x2="225" y2="85" stroke="#000000" stroke-width="2"/>
+    
+    <!-- Confident smile -->
+    <path d="M185 115 C195 125, 205 125, 215 115" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Flannel shirt outline -->
+    <path d="M170 180 L160 320 L240 320 L230 180" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Flannel pattern - simplified -->
+    <line x1="170" y1="200" x2="230" y2="200" stroke="#000000" stroke-width="1"/>
+    <line x1="170" y1="240" x2="230" y2="240" stroke="#000000" stroke-width="1"/>
+    <line x1="170" y1="280" x2="230" y2="280" stroke="#000000" stroke-width="1"/>
+    <line x1="190" y1="180" x2="190" y2="320" stroke="#000000" stroke-width="1"/>
+    <line x1="210" y1="180" x2="210" y2="320" stroke="#000000" stroke-width="1"/>
+    
+    <!-- Jeans -->
+    <path d="M160 320 L160 430" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M240 320 L240 430" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- French textbook in hand -->
+    <rect x="130" y="220" width="30" height="40" stroke="#000000" stroke-width="2" fill="none"/>
+    <line x1="140" y1="230" x2="150" y2="230" stroke="#000000" stroke-width="1"/>
+    <line x1="140" y1="240" x2="150" y2="240" stroke="#000000" stroke-width="1"/>
+    <line x1="140" y1="250" x2="150" y2="250" stroke="#000000" stroke-width="1"/>
+    
+    <!-- Cultural elements - small Jordan flag pin -->
+    <rect x="220" y="170" width="15" height="10" fill="none" stroke="#000000" stroke-width="1"/>
+    <path d="M220 170 L235 170 L235 180 L220 180 Z" fill="none" stroke="#000000" stroke-width="1"/>
+    <path d="M227 175 L231 172 L228 178" stroke="#000000" stroke-width="1" fill="none"/>
+    
+    <!-- Competitive elements -->
+    <!-- Trophy or medal near the character -->
+    <path d="M260 200 C270 190, 280 190, 290 200 C290 210, 270 210, 260 210 Z" stroke="#000000" stroke-width="1" fill="none"/>
+    <line x1="275" y1="210" x2="275" y2="230" stroke="#000000" stroke-width="1"/>
+    <path d="M265 230 L285 230 L275 240 Z" stroke="#000000" stroke-width="1" fill="none"/>
+  </g>
+</svg>

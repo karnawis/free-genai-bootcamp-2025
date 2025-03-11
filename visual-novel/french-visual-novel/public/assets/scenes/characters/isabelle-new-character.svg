@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#ffffff"/>
+  
+  <!-- Basic Stick Figure with curved lines and stylish elements -->
+  <g id="character">
+    <!-- Head -->
+    <circle cx="200" cy="100" r="50" fill="none" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Short, sleek black hair -->
+    <path d="M160 80 C170 60, 230 60, 240 80" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M160 80 C170 90, 230 90, 240 80" stroke="#000000" stroke-width="3" fill="none"/>
+    
+    <!-- Face features -->
+    <!-- Eyes with well-defined eyebrows -->
+    <circle cx="180" cy="90" r="7" fill="#000000"/>
+    <circle cx="220" cy="90" r="7" fill="#000000"/>
+    <path d="M170 75 C175 70, 185 75, 185 75" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M215 75 C215 75, 225 70, 230 75" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Warm, engaging smile with stylish lipstick -->
+    <path d="M180 120 C190 128, 210 128, 220 120" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Neck -->
+    <line x1="200" y1="150" x2="200" y2="170" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Stylish outfit - asymmetrical dress outline -->
+    <path d="M180 170 L170 240 L160 340 L200 360 L240 340 L230 240 L220 170" stroke="#000000" stroke-width="3" fill="none"/>
+    
+    <!-- Modern design details on dress -->
+    <path d="M175 200 L225 200" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M170 250 L230 250" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M165 300 L235 300" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Arms - curved with artistic gesture -->
+    <path d="M180 170 C150 190, 120 210, 90 220" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M220 170 C250 190, 280 200, 310 210" stroke="#000000" stroke-width="3" fill="none"/>
+    
+    <!-- Hands - expressive -->
+    <circle cx="90" cy="220" r="10" fill="none" stroke="#000000" stroke-width="3"/>
+    <circle cx="310" cy="210" r="10" fill="none" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Legs - stylish stance -->
+    <path d="M200 360 C190 400, 175 430, 170 450" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M200 360 C210 400, 225 430, 230 450" stroke="#000000" stroke-width="3" fill="none"/>
+    
+    <!-- Stylish high heels -->
+    <path d="M170 450 C165 455, 160 455, 155 452" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M155 452 L150 460" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M230 450 C235 455, 240 455, 245 452" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M245 452 L250 460" stroke="#000000" stroke-width="3" fill="none"/>
+    
+    <!-- Statement jewelry - artistic necklace -->
+    <path d="M180 190 C190 200, 210 200, 220 190" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M200 200 L190 215 L210 215 Z" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Art curator elements -->
+    <!-- Art piece in one hand -->
+    <rect x="70" y="200" width="40" height="50" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M80 210 L100 240" stroke="#000000" stroke-width="1.5"/>
+    <path d="M100 210 L80 240" stroke="#000000" stroke-width="1.5"/>
+    <circle cx="90" cy="225" r="8" stroke="#000000" stroke-width="1.5" fill="none"/>
+    
+    <!-- Gallery brochure/catalog in other hand -->
+    <path d="M295 195 L325 195 L325 225 L295 225 Z" stroke="#000000" stroke-width="2" fill="none"/>
+    <text x="310" y="215" font-family="Arial, sans-serif" font-size="7" text-anchor="middle">ART</text>
+  </g>
+</svg>
