@@ -30,7 +30,7 @@ You are a student from Toronto going to McGill University in Montreal for 1 seme
 - Key decision points that lead to specific branches
 - All interactions flow naturally from one to the next
 
-> **Note**: The complete story structure is detailed in [Story-Structure.md](Story-Structure.md)
+> **Note**: The complete story structure is detailed in [Story-Structure.md](french-story-structure.md)
 
 ### Settings
 
@@ -171,3 +171,9 @@ The bustling streets of Montreal are alive with the vibrant energy of the city. 
 - **Role**: Provides insights into the art pieces, engages the player in discussions about modern art, and introduces cultural aspects of Quebec through the exhibits.
 - **Language Level**: Fluent in French and English, uses sophisticated vocabulary related to art and culture.
 - **Key Interactions**: Discussing art exhibits, explaining the significance of various artworks, inviting the player to gallery events and artist talks, and offering recommendations for other cultural activities in Montreal.
+
+### Technical implementation
+
+- All scenes will feature only the player and one other character
+- characters will refernce other characters in the dialogue but never apear together in the same scene
+- scene transitions will be used to switch betweeen character interactions.

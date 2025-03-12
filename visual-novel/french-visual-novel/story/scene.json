@@ -1,0 +1,808 @@
+[
+{
+    "id": "scene1",
+    "title": "First Day at McGill",
+    "location": "McGill French Department",
+    "character": "Martin Tremblay",
+    "backgroundImage": "mcgill_registration_office.jpg",
+    "dialog": [
+    {
+        "speaker": "narrator",
+        "text": "You enter the registration office at McGill University. The air is filled with excitement and nervous energy as students line up to register for classes.",
+        "french": null
+    },
+    {
+        "speaker": "Martin Tremblay",
+        "text": "Hello, welcome to McGill University. How may I help you today?",
+        "french": "Bonjour, bienvenue à l'Université McGill. Comment puis-je vous aider aujourd'hui?",
+        "image": "martin_tremblay.jpg"
+    },
+    {
+        "speaker": "player",
+        "text": "Hello, I'm here to register for the French immersion program.",
+        "french": "Bonjour, je suis ici pour m'inscrire au programme d'immersion française."
+    },
+    {
+        "speaker": "Martin Tremblay",
+        "text": "Very good. May I see your student ID and acceptance letter, please?",
+        "french": "Très bien. Puis-je voir votre carte d'étudiant et votre lettre d'acceptation, s'il vous plaît?",
+        "image": "martin_tremblay.jpg"
+    },
+    {
+        "speaker": "player",
+        "text": "Here they are.",
+        "french": "Les voici."
+    },
+    {
+        "speaker": "Martin Tremblay",
+        "text": "Thank you. I see you're from Toronto. Is this your first time in Montreal?",
+        "french": "Merci. Je vois que vous venez de Toronto. Est-ce votre première fois à Montréal?",
+        "image": "martin_tremblay.jpg"
+    }
+    ],
+    "vocabulary": [
+    {
+        "word": "Bonjour",
+        "translation": "Hello"
+    },
+    {
+        "word": "bienvenue",
+        "translation": "welcome"
+    },
+    {
+        "word": "comment",
+        "translation": "how"
+    },
+    {
+        "word": "puis-je",
+        "translation": "may I"
+    },
+    {
+        "word": "vous aider",
+        "translation": "help you"
+    },
+    {
+        "word": "aujourd'hui",
+        "translation": "today"
+    }
+    ],
+    "choices": [
+    {
+        "text": "Try to respond entirely in French",
+        "french": "Oui, c'est ma première fois. Je suis très excité d'étudier ici.",
+        "nextScene": "scene1A"
+    },
+    {
+        "text": "Respond mostly in English with some French words",
+        "french": "Yes, first time. Je suis... excited to be here.",
+        "nextScene": "scene1B"
+    }
+    ]
+},
+{
+    "id": "scene1A",
+    "title": "Making an Effort",
+    "location": "McGill French Department",
+    "character": "Martin Tremblay",
+    "backgroundImage": "mcgill_registration_office.jpg",
+    "dialog": [
+    {
+        "speaker": "player",
+        "text": "Yes, it's my first time. I'm very excited to study here.",
+        "french": "Oui, c'est ma première fois. Je suis très excité d'étudier ici."
+    },
+    {
+        "speaker": "Martin Tremblay",
+        "text": "Your French is already quite good! That's a great start for the immersion program.",
+        "french": "Votre français est déjà assez bon! C'est un excellent début pour le programme d'immersion.",
+        "image": "martin_tremblay_smiling.jpg"
+    },
+    {
+        "speaker": "narrator",
+        "text": "Martin's expression warms as he notices your effort to speak French.",
+        "french": null
+    },
+    {
+        "speaker": "Martin Tremblay",
+        "text": "I have some additional resources for students serious about improving their French. Here's a guide to language exchange events and practice groups on campus.",
+        "french": "J'ai des ressources supplémentaires pour les étudiants sérieux qui veulent améliorer leur français. Voici un guide des événements d'échange linguistique et des groupes de pratique sur le campus.",
+        "image": "martin_tremblay.jpg"
+    }
+    ],
+    "vocabulary": [
+    {
+        "word": "excité",
+        "translation": "excited"
+    },
+    {
+        "word": "étudier",
+        "translation": "to study"
+    },
+    {
+        "word": "déjà",
+        "translation": "already"
+    },
+    {
+        "word": "assez bon",
+        "translation": "quite good"
+    },
+    {
+        "word": "ressources supplémentaires",
+        "translation": "additional resources"
+    }
+    ],
+    "nextScene": "scene2",
+    "choices": []
+},
+{
+    "id": "scene1B",
+    "title": "Playing it Safe",
+    "location": "McGill French Department",
+    "character": "Martin Tremblay",
+    "backgroundImage": "mcgill_registration_office.jpg",
+    "dialog": [
+    {
+        "speaker": "player",
+        "text": "Yes, first time. Je suis... excited to be here.",
+        "french": "Yes, first time. Je suis... excited to be here."
+    },
+    {
+        "speaker": "Martin Tremblay",
+        "text": "I see. Well, welcome to Montreal. Here are your registration forms and class schedule.",
+        "french": "Je vois. Eh bien, bienvenue à Montréal. Voici vos formulaires d'inscription et votre horaire de cours.",
+        "image": "martin_tremblay_neutral.jpg"
+    },
+    {
+        "speaker": "narrator",
+        "text": "Martin processes your paperwork efficiently but without much warmth.",
+        "french": null
+    },
+    {
+        "speaker": "Martin Tremblay",
+        "text": "Your classes start next Monday. The language lab is on the second floor if you need extra practice.",
+        "french": "Vos cours commencent lundi prochain. Le laboratoire de langue est au deuxième étage si vous avez besoin de pratique supplémentaire.",
+        "image": "martin_tremblay.jpg"
+    }
+    ],
+    "vocabulary": [
+    {
+        "word": "je vois",
+        "translation": "I see"
+    },
+    {
+        "word": "formulaires d'inscription",
+        "translation": "registration forms"
+    },
+    {
+        "word": "horaire de cours",
+        "translation": "class schedule"
+    },
+    {
+        "word": "lundi prochain",
+        "translation": "next Monday"
+    },
+    {
+        "word": "deuxième étage",
+        "translation": "second floor"
+    }
+    ],
+    "nextScene": "scene2",
+    "choices": []
+},
+{
+    "id": "scene2",
+    "title": "First French Class",
+    "location": "McGill French Department",
+    "character": "Professeure Lafleur",
+    "backgroundImage": "mcgill_classroom.jpg",
+    "dialog": [
+    {
+        "speaker": "narrator",
+        "text": "You arrive at your first French class. The classroom is bright and inviting, with posters of French grammar rules and maps of Quebec on the walls.",
+        "french": null
+    },
+    {
+        "speaker": "Professeure Lafleur",
+        "text": "Good morning everyone! Welcome to French for Beginners. I am Professor Lafleur, and I will be your guide on this journey into the French language.",
+        "french": "Bonjour à tous! Bienvenue au cours de français pour débutants. Je suis Professeure Lafleur, et je serai votre guide dans ce voyage dans la langue française.",
+        "image": "professeure_lafleur.jpg"
+    },
+    {
+        "speaker": "Professeure Lafleur",
+        "text": "Let's begin by introducing ourselves. Can anyone volunteer to go first?",
+        "french": "Commençons par nous présenter. Quelqu'un veut-il se porter volontaire pour commencer?",
+        "image": "professeure_lafleur.jpg"
+    }
+    ],
+    "vocabulary": [
+    {
+        "word": "bonjour à tous",
+        "translation": "good morning everyone"
+    },
+    {
+        "word": "bienvenue au cours",
+        "translation": "welcome to the class"
+    },
+    {
+        "word": "débutants",
+        "translation": "beginners"
+    },
+    {
+        "word": "commençons",
+        "translation": "let's begin"
+    },
+    {
+        "word": "se présenter",
+        "translation": "to introduce oneself"
+    },
+    {
+        "word": "volontaire",
+        "translation": "volunteer"
+    }
+    ],
+    "choices": [
+    {
+        "text": "Volunteer to introduce yourself",
+        "french": "Je voudrais me présenter.",
+        "nextScene": "scene2A"
+    },
+    {
+        "text": "Wait for someone else to go first",
+        "french": null,
+        "nextScene": "scene2B"
+    }
+    ]
+},
+{
+    "id": "scene2A",
+    "title": "Taking Initiative",
+    "location": "McGill French Department",
+    "character": "Professeure Lafleur",
+    "backgroundImage": "mcgill_classroom.jpg",
+    "dialog": [
+    {
+        "speaker": "player",
+        "text": "I would like to introduce myself.",
+        "french": "Je voudrais me présenter."
+    },
+    {
+        "speaker": "Professeure Lafleur",
+        "text": "Excellent! Please, go ahead.",
+        "french": "Excellent! Je vous en prie, allez-y.",
+        "image": "professeure_lafleur_smiling.jpg"
+    },
+    {
+        "speaker": "player",
+        "text": "My name is [Player Name]. I am from Toronto and I am here to learn French.",
+        "french": "Je m'appelle [Player Name]. Je viens de Toronto et je suis ici pour apprendre le français."
+    },
+    {
+        "speaker": "Professeure Lafleur",
+        "text": "Very good! I appreciate your enthusiasm. After class, I'd like to discuss a special cultural project with you that might interest you.",
+        "french": "Très bien! J'apprécie votre enthousiasme. Après la classe, j'aimerais discuter avec vous d'un projet culturel spécial qui pourrait vous intéresser.",
+        "image": "professeure_lafleur_pleased.jpg"
+    }
+    ],
+    "vocabulary": [
+    {
+        "word": "je voudrais",
+        "translation": "I would like to"
+    },
+    {
+        "word": "je vous en prie",
+        "translation": "please (go ahead)"
+    },
+    {
+        "word": "allez-y",
+        "translation": "go ahead"
+    },
+    {
+        "word": "je m'appelle",
+        "translation": "my name is"
+    },
+    {
+        "word": "je viens de",
+        "translation": "I come from"
+    },
+    {
+        "word": "j'apprécie",
+        "translation": "I appreciate"
+    }
+    ],
+    "nextScene": "scene3",
+    "choices": []
+},
+{
+    "id": "scene2B",
+    "title": "Observing the Class",
+    "location": "McGill French Department",
+    "character": "Professeure Lafleur",
+    "backgroundImage": "mcgill_classroom.jpg",
+    "dialog": [
+    {
+        "speaker": "narrator",
+        "text": "You decide to wait and observe how others introduce themselves first.",
+        "french": null
+    },
+    {
+        "speaker": "Professeure Lafleur",
+        "text": "No volunteers? Very well. I'll call on students. Let's start with you in the back.",
+        "french": "Pas de volontaires? Très bien. Je vais désigner des étudiants. Commençons par vous au fond.",
+        "image": "professeure_lafleur_neutral.jpg"
+    },
+    {
+        "speaker": "narrator",
+        "text": "After several students introduce themselves, Professor Lafleur calls on you.",
+        "french": null
+    },
+    {
+        "speaker": "Professeure Lafleur",
+        "text": "And you, the new student from Toronto. Please introduce yourself to the class.",
+        "french": "Et vous, le nouvel étudiant de Toronto. Veuillez vous présenter à la classe.",
+        "image": "professeure_lafleur.jpg"
+    },
+    {
+        "speaker": "player",
+        "text": "My name is [Player Name]. I am from Toronto and I am here to learn French.",
+        "french": "Je m'appelle [Player Name]. Je viens de Toronto et je suis ici pour apprendre le français."
+    },
+    {
+        "speaker": "Professeure Lafleur",
+        "text": "Thank you. Today we will begin with basic greetings and introductions.",
+        "french": "Merci. Aujourd'hui, nous commencerons par les salutations et les présentations de base.",
+        "image": "professeure_lafleur.jpg"
+    }
+    ],
+    "vocabulary": [
+    {
+        "word": "pas de",
+        "translation": "no"
+    },
+    {
+        "word": "je vais désigner",
+        "translation": "I will call on"
+    },
+    {
+        "word": "au fond",
+        "translation": "in the back"
+    },
+    {
+        "word": "nouvel étudiant",
+        "translation": "new student"
+    },
+    {
+        "word": "veuillez",
+        "translation": "please (formal command)"
+    },
+    {
+        "word": "salutations",
+        "translation": "greetings"
+    }
+    ],
+    "nextScene": "scene3",
+    "choices": []
+},
+{
+    "id": "scene3",
+    "title": "Moving In",
+    "location": "Student Apartment",
+    "character": "Ryan Miller",
+    "backgroundImage": "student_apartment.jpg",
+    "dialog": [
+    {
+        "speaker": "narrator",
+        "text": "You arrive at your new apartment with your luggage. A young man is lounging on the couch, scrolling through his phone.",
+        "french": null
+    },
+    {
+        "speaker": "Ryan Miller",
+        "text": "Hey there! You must be my new roommate from Toronto. I'm Ryan, from Vancouver.",
+        "french": "Salut! Tu dois être mon nouveau colocataire de Toronto. Je suis Ryan, de Vancouver.",
+        "image": "ryan_miller.jpg"
+    },
+    {
+        "speaker": "player",
+        "text": "Nice to meet you, Ryan. Yes, I'm [Player Name].",
+        "french": "Enchanté, Ryan. Oui, je suis [Player Name]."
+    },
+    {
+        "speaker": "Ryan Miller",
+        "text": "Cool. Your room is the one on the left. Bathroom is shared. Kitchen stuff is communal except for the labeled food in the fridge.",
+        "french": "Cool. Ta chambre est celle de gauche. La salle de bain est partagée. Les trucs de cuisine sont communs sauf pour la nourriture étiquetée dans le frigo.",
+        "image": "ryan_miller_pointing.jpg"
+    },
+    {
+        "speaker": "Ryan Miller",
+        "text": "So, you're here for the French program, right? I'm taking a few classes in French too, but mostly engineering courses.",
+        "french": "Alors, tu es ici pour le programme de français, n'est-ce pas? Je prends aussi quelques cours en français, mais surtout des cours d'ingénierie.",
+        "image": "ryan_miller.jpg"
+    }
+    ],
+    "vocabulary": [
+    {
+        "word": "salut",
+        "translation": "hi"
+    },
+    {
+        "word": "colocataire",
+        "translation": "roommate"
+    },
+    {
+        "word": "enchanté",
+        "translation": "nice to meet you"
+    },
+    {
+        "word": "chambre",
+        "translation": "bedroom"
+    },
+    {
+        "word": "salle de bain",
+        "translation": "bathroom"
+    },
+    {
+        "word": "partagée",
+        "translation": "shared"
+    },
+    {
+        "word": "frigo",
+        "translation": "fridge (informal)"
+    }
+    ],
+    "choices": [
+    {
+        "text": "Suggest speaking French at home for practice",
+        "french": "Est-ce qu'on pourrait parler français à la maison? Pour pratiquer?",
+        "nextScene": "scene3A"
+    },
+    {
+        "text": "Agree to speak English at home, French outside",
+        "french": null,
+        "nextScene": "scene3B"
+    }
+    ]
+},
+{
+    "id": "scene3A",
+    "title": "French Immersion at Home",
+    "location": "Student Apartment",
+    "character": "Ryan Miller",
+    "backgroundImage": "student_apartment.jpg",
+    "dialog": [
+    {
+        "speaker": "player",
+        "text": "Could we speak French at home? For practice?",
+        "french": "Est-ce qu'on pourrait parler français à la maison? Pour pratiquer?"
+    },
+    {
+        "speaker": "Ryan Miller",
+        "text": "Uh... seriously? I mean, I guess we could try. My French isn't great though.",
+        "french": "Euh... sérieusement? Je veux dire, je suppose qu'on pourrait essayer. Mon français n'est pas génial cependant.",
+        "image": "ryan_miller_concerned.jpg"
+    },
+    {
+        "speaker": "player",
+        "text": "It would help me a lot. We could switch to English when it gets too difficult.",
+        "french": "Ça m'aiderait beaucoup. On pourrait passer à l'anglais quand ça devient trop difficile."
+    },
+    {
+        "speaker": "Ryan Miller",
+        "text": "Fine, let's give it a shot. But don't laugh at my accent. Deal?",
+        "french": "D'accord, essayons. Mais ne te moque pas de mon accent. Marché conclu?",
+        "image": "ryan_miller_reluctant.jpg"
+    },
+    {
+        "speaker": "narrator",
+        "text": "Ryan seems hesitant but willing to try. This could create some tension but will provide valuable language practice.",
+        "french": null
+    }
+    ],
+    "vocabulary": [
+    {
+        "word": "pratiquer",
+        "translation": "to practice"
+    },
+    {
+        "word": "sérieusement",
+        "translation": "seriously"
+    },
+    {
+        "word": "essayer",
+        "translation": "to try"
+    },
+    {
+        "word": "cependant",
+        "translation": "however"
+    },
+    {
+        "word": "ça m'aiderait",
+        "translation": "it would help me"
+    },
+    {
+        "word": "marché conclu",
+        "translation": "deal"
+    }
+    ],
+    "nextScene": "scene4",
+    "choices": []
+},
+{
+    "id": "scene3B",
+    "title": "Comfort Zone",
+    "location": "Student Apartment",
+    "character": "Ryan Miller",
+    "backgroundImage": "student_apartment.jpg",
+    "dialog": [
+    {
+        "speaker": "player",
+        "text": "I think it's better if we speak English at home. I'll practice French outside.",
+        "french": "Je pense que c'est mieux si on parle anglais à la maison. Je pratiquerai le français dehors."
+    },
+    {
+        "speaker": "Ryan Miller",
+        "text": "Oh thank god! I was worried you'd be one of those intense language immersion types. This is gonna work out great!",
+        "french": "Oh dieu merci! J'avais peur que tu sois un de ces types d'immersion linguistique intense. Ça va super bien marcher!",
+        "image": "ryan_miller_relieved.jpg"
+    },
+    {
+        "speaker": "Ryan Miller",
+        "text": "I mean, I'm trying to improve my French too, but after engineering classes all day, my brain needs a break.",
+        "french": "Je veux dire, j'essaie d'améliorer mon français aussi, mais après des cours d'ingénierie toute la journée, mon cerveau a besoin d'une pause.",
+        "image": "ryan_miller.jpg"
+    },
+    {
+        "speaker": "narrator",
+        "text": "Ryan visibly relaxes. Your living situation will be comfortable, though you'll need to find other opportunities for French practice.",
+        "french": null
+    }
+    ],
+    "vocabulary": [
+    {
+        "word": "je pense que",
+        "translation": "I think that"
+    },
+    {
+        "word": "à la maison",
+        "translation": "at home"
+    },
+    {
+        "word": "dehors",
+        "translation": "outside"
+    },
+    {
+        "word": "dieu merci",
+        "translation": "thank god"
+    },
+    {
+        "word": "j'avais peur",
+        "translation": "I was afraid"
+    },
+    {
+        "word": "ça va marcher",
+        "translation": "it's going to work"
+    }
+    ],
+    "nextScene": "scene4",
+    "choices": []
+},
+{
+    "id": "scene4",
+    "title": "First Visit to Café Campus",
+    "location": "Cafe Campus",
+    "character": "Antoine Desjardins",
+    "backgroundImage": "cafe_campus.jpg",
+    "dialog": [
+    {
+        "speaker": "narrator",
+        "text": "After a long day of orientation, you decide to visit a café near campus that you've heard is popular with students.",
+        "french": null
+    },
+    {
+        "speaker": "Antoine Desjardins",
+        "text": "Hello there! First time at Café Campus? What can I get you?",
+        "french": "Salut! Première fois au Café Campus? Qu'est-ce que je peux te servir?",
+        "image": "antoine_desjardins.jpg"
+    },
+    {
+        "speaker": "player",
+        "text": "Hello! Yes, it's my first time here. I'd like a coffee, please.",
+        "french": "Bonjour! Oui, c'est ma première fois ici. Je voudrais un café, s'il vous plaît."
+    },
+    {
+        "speaker": "Antoine Desjardins",
+        "text": "What kind of coffee? We have espresso, americano, latte, cappuccino...",
+        "french": "Quel type de café? Nous avons espresso, americano, latte, cappuccino...",
+        "image": "antoine_desjardins_at_counter.jpg"
+    },
+    {
+        "speaker": "player",
+        "text": "A latte, please.",
+        "french": "Un latte, s'il vous plaît."
+    },
+    {
+        "speaker": "Antoine Desjardins",
+        "text": "Coming right up! I haven't seen you around before. Are you new to McGill?",
+        "french": "Tout de suite! Je ne t'ai pas vu avant. Tu es nouveau à McGill?",
+        "image": "antoine_desjardins_making_coffee.jpg"
+    }
+    ],
+    "vocabulary": [
+    {
+        "word": "première fois",
+        "translation": "first time"
+    },
+    {
+        "word": "qu'est-ce que je peux",
+        "translation": "what can I"
+    },
+    {
+        "word": "servir",
+        "translation": "to serve"
+    },
+    {
+        "word": "je voudrais",
+        "translation": "I would like"
+    },
+    {
+        "word": "quel type",
+        "translation": "what kind"
+    },
+    {
+        "word": "tout de suite",
+        "translation": "right away"
+    },
+    {
+        "word": "nouveau",
+        "translation": "new (masculine)"
+    }
+    ],
+    "choices": [
+    {
+        "text": "Ask about local recommendations in French",
+        "french": "Oui, je suis nouveau. Pouvez-vous me recommander des endroits intéressants à Montréal?",
+        "nextScene": "scene4A"
+    },
+    {
+        "text": "Stick to basic ordering phrases",
+        "french": "Oui, merci. C'est combien?",
+        "nextScene": "scene4B"
+    }
+    ]
+},
+{
+    "id": "scene4A",
+    "title": "Local Insights",
+    "location": "Cafe Campus",
+    "character": "Antoine Desjardins",
+    "backgroundImage": "cafe_campus.jpg",
+    "dialog": [
+    {
+        "speaker": "player",
+        "text": "Yes, I'm new. Can you recommend some interesting places in Montreal?",
+        "french": "Oui, je suis nouveau. Pouvez-vous me recommander des endroits intéressants à Montréal?"
+    },
+    {
+        "speaker": "Antoine Desjardins",
+        "text": "Oh, you're trying to speak French! That's awesome. Well, it depends on what you're into.",
+        "french": "Oh, tu essaies de parler français! C'est génial. Eh bien, ça dépend de ce que tu aimes.",
+        "image": "antoine_desjardins_enthusiastic.jpg"
+    },
+    {
+        "speaker": "Antoine Desjardins",
+        "text": "If you like music, there's a great indie show this weekend at Le Belmont. If you're into art, check out the underground gallery on Saint-Laurent. The tourist spots are fine, but the real Montreal is in the neighborhoods.",
+        "french": "Si tu aimes la musique, il y a un super spectacle indie ce weekend au Belmont. Si tu aimes l'art, va voir la galerie souterraine sur Saint-Laurent. Les endroits touristiques sont bien, mais le vrai Montréal est dans les quartiers.",
+        "image": "antoine_desjardins_leaning.jpg"
+    },
+    {
+        "speaker": "narrator",
+        "text": "Antoine writes down some locations on your coffee cup with a marker.",
+        "french": null
+    },
+    {
+        "speaker": "Antoine Desjardins",
+        "text": "Here's your latte and some places to check out. Come back and tell me what you think. Oh, and the coffee's on the house today - welcome to Montreal!",
+        "french": "Voici ton latte et quelques endroits à visiter. Reviens me dire ce que tu en penses. Oh, et le café est gratuit aujourd'hui - bienvenue à Montréal!",
+        "image": "antoine_desjardins_giving_coffee.jpg"
+    }
+    ],
+    "vocabulary": [
+    {
+        "word": "endroits",
+        "translation": "places"
+    },
+    {
+        "word": "tu essaies",
+        "translation": "you're trying"
+    },
+    {
+        "word": "ça dépend",
+        "translation": "it depends"
+    },
+    {
+        "word": "ce que tu aimes",
+        "translation": "what you like"
+    },
+    {
+        "word": "ce weekend",
+        "translation": "this weekend"
+    },
+    {
+        "word": "quartiers",
+        "translation": "neighborhoods"
+    },
+    {
+        "word": "gratuit",
+        "translation": "free (no cost)"
+    }
+    ],
+    "nextScene": "scene5",
+    "choices": []
+},
+{
+    "id": "scene4B",
+    "title": "Simple Transaction",
+    "location": "Cafe Campus",
+    "character": "Antoine Desjardins",
+    "backgroundImage": "cafe_campus.jpg",
+    "dialog": [
+    {
+        "speaker": "player",
+        "text": "Yes, thank you. How much is it?",
+        "french": "Oui, merci. C'est combien?"
+    },
+    {
+        "speaker": "Antoine Desjardins",
+        "text": "That'll be $4.50.",
+        "french": "Ce sera 4,50$.",
+        "image": "antoine_desjardins.jpg"
+    },
+    {
+        "speaker": "narrator",
+        "text": "You hand Antoine a five-dollar bill.",
+        "french": null
+    },
+    {
+        "speaker": "Antoine Desjardins",
+        "text": "Here's your change. Enjoy your coffee and have a nice day!",
+        "french": "Voici votre monnaie. Profitez de votre café et passez une bonne journée!",
+        "image": "antoine_desjardins_giving_change.jpg"
+    },
+    {
+        "speaker": "narrator",
+        "text": "The transaction is complete. Antoine moves on to the next customer as you find a seat with your coffee.",
+        "french": null
+    }
+    ],
+    "vocabulary": [
+    {
+        "word": "c'est combien",
+        "translation": "how much is it"
+    },
+    {
+        "word": "ce sera",
+        "translation": "that will be"
+    },
+    {
+        "word": "voici",
+        "translation": "here is"
+    },
+    {
+        "word": "monnaie",
+        "translation": "change (money)"
+    },
+    {
+        "word": "profitez",
+        "translation": "enjoy"
+    },
+    {
+        "word": "passez",
+        "translation": "have (imperative)"
+    },
+    {
+        "word": "bonne journée",
+        "translation": "good day"
+    }
+    ],
+    "nextScene": "scene5",
+    "choices": []
+}
+]
