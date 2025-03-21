@@ -9,6 +9,15 @@ You are a student from Toronto going to McGill University in Montreal for 1 seme
 You will learn basic French vocabulary, simple grammar structures, and cultural aspects of Québécois life.
 The game follows a branching narrative structure, similar to an if-else tree, where each choice leads to a different set of events and outcomes.
 
+## prompting for engineering
+
+```
+I'm building a visual novel video game for french language learning. I wanted to build it with phaser js. can you build it for me, take a look at the tech specs and the story structure
+```
+
+I use github co-pilot coding assistant.
+I tried gpt4o it didn't work for me. I used Gemini didn't work, I used sonnet 3.5
+
 ### Target Audience
 
 - French language learners (Beginners, DELF A1)
