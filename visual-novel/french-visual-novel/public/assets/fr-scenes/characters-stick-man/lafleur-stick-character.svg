@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#ffffff"/>
+  
+  <!-- Basic Stick Figure with curved lines -->
+  <g id="character">
+    <!-- Head -->
+    <circle cx="200" cy="100" r="50" fill="none" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Shoulder-length curly brown hair -->
+    <path d="M155 75 C160 60, 240 60, 245 75" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M155 75 C160 95, 150 120, 160 130" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M245 75 C240 95, 250 120, 240 130" stroke="#000000" stroke-width="3" fill="none"/>
+    <!-- Curly details -->
+    <path d="M160 100 C155 105, 160 110, 165 108" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M240 100 C245 105, 240 110, 235 108" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M170 125 C165 130, 170 135, 175 133" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M230 125 C235 130, 230 135, 225 133" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Face features -->
+    <!-- Eyes with eyebrows -->
+    <circle cx="180" cy="90" r="7" fill="#000000"/>
+    <circle cx="220" cy="90" r="7" fill="#000000"/>
+    <path d="M170 75 C175 70, 185 75, 185 75" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M215 75 C215 75, 225 70, 230 75" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Encouraging smile -->
+    <path d="M180 120 C190 128, 210 128, 220 120" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Neck -->
+    <line x1="200" y1="150" x2="200" y2="170" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Professional attire - blazer outline -->
+    <path d="M170 180 L160 300 L240 300 L230 180" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M200 170 L200 300" stroke="#000000" stroke-width="3" fill="none"/>
+    
+    <!-- Blazer lapels -->
+    <path d="M190 170 L185 220" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M210 170 L215 220" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Arms - curved -->
+    <path d="M170 180 C140 190, 110 200, 90 220" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M230 180 C260 190, 290 200, 310 220" stroke="#000000" stroke-width="3" fill="none"/>
+    
+    <!-- Hands - circular -->
+    <circle cx="90" cy="220" r="12" fill="none" stroke="#000000" stroke-width="3"/>
+    <circle cx="310" cy="220" r="12" fill="none" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Skirt outline -->
+    <path d="M160 300 L140 380 L260 380 L240 300" stroke="#000000" stroke-width="3" fill="none"/>
+    
+    <!-- Legs -->
+    <path d="M175 380 C175 400, 175 430, 170 450" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M225 380 C225 400, 225 430, 230 450" stroke="#000000" stroke-width="3" fill="none"/>
+    
+    <!-- Professional shoes - slight heel -->
+    <path d="M170 450 C165 455, 160 455, 155 452" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M155 452 L150 455" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M230 450 C235 455, 240 455, 245 452" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M245 452 L250 455" stroke="#000000" stroke-width="3" fill="none"/>
+    
+    <!-- Distinctive Montreal jewelry - necklace -->
+    <path d="M185 200 C190 210, 210 210, 215 200" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M200 210 L195 220 L205 220 Z" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Teaching props -->
+    <!-- Book in hand -->
+    <rect x="70" y="200" width="40" height="50" stroke="#000000" stroke-width="2" fill="none"/>
+    <text x="90" y="225" font-family="Arial, sans-serif" font-size="8" text-anchor="middle">FRANÇAIS</text>
+    <line x1="75" y1="235" x2="105" y2="235" stroke="#000000" stroke-width="1"/>
+    <line x1="75" y1="240" x2="105" y2="240" stroke="#000000" stroke-width="1"/>
+    
+    <!-- Pointer/pen in other hand -->
+    <line x1="300" y1="210" x2="320" y2="230" stroke="#000000" stroke-width="2"/>
+  </g>
+</svg>

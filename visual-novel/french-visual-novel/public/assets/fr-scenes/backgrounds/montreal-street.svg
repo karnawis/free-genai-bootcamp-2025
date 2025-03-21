@@ -1,0 +1,273 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background gradient in Gris style with beige tones -->
+  <defs>
+    <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8e9dd" />
+      <stop offset="70%" stop-color="#e6cbb5" />
+    </linearGradient>
+    
+    <!-- Soft light effect -->
+    <radialGradient id="sunlight" cx="70%" cy="30%" r="60%" fx="70%" fy="30%">
+      <stop offset="0%" stop-color="#fffaf0" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#fffaf0" stop-opacity="0" />
+    </radialGradient>
+    
+    <!-- Stone pattern for sidewalk -->
+    <pattern id="sidewalkPattern" patternUnits="userSpaceOnUse" width="40" height="40" patternTransform="scale(0.5)">
+      <rect width="40" height="40" fill="#d8b795" />
+      <line x1="0" y1="0" x2="40" y2="0" stroke="#c49a76" stroke-width="1" />
+      <line x1="0" y1="20" x2="40" y2="20" stroke="#c49a76" stroke-width="1" />
+      <line x1="0" y1="40" x2="40" y2="40" stroke="#c49a76" stroke-width="1" />
+      <line x1="0" y1="0" x2="0" y2="40" stroke="#c49a76" stroke-width="1" />
+      <line x1="20" y1="0" x2="20" y2="40" stroke="#c49a76" stroke-width="1" />
+      <line x1="40" y1="0" x2="40" y2="40" stroke="#c49a76" stroke-width="1" />
+    </pattern>
+  </defs>
+  
+  <!-- Sky background -->
+  <rect width="800" height="600" fill="url(#skyGradient)" />
+  <rect width="800" height="600" fill="url(#sunlight)" />
+  
+  <!-- Road -->
+  <rect x="0" y="450" width="800" height="150" fill="#9c7c65" />
+  <rect x="50" y="520" width="700" height="10" fill="#c49a76" opacity="0.5" />
+  
+  <!-- Sidewalk on both sides -->
+  <rect x="0" y="400" width="800" height="50" fill="url(#sidewalkPattern)" />
+  
+  <!-- Montreal's classic row houses/buildings on left side -->
+  <!-- Building 1 -->
+  <rect x="50" y="100" width="150" height="300" fill="#d8b795" />
+  <rect x="60" y="120" width="30" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="100" y="120" width="30" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="140" y="120" width="30" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  
+  <rect x="60" y="200" width="30" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="100" y="200" width="30" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="140" y="200" width="30" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  
+  <rect x="60" y="280" width="30" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="100" y="280" width="30" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="140" y="280" width="30" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  
+  <!-- Iconic Montreal spiral staircase -->
+  <g transform="translate(170, 350)">
+    <path d="M0,0 Q15,-20 30,0 Q45,-20 60,0" fill="none" stroke="#9c7c65" stroke-width="4" />
+    <path d="M0,-30 Q15,-50 30,-30 Q45,-50 60,-30" fill="none" stroke="#9c7c65" stroke-width="4" />
+    <path d="M0,-60 Q15,-80 30,-60 Q45,-80 60,-60" fill="none" stroke="#9c7c65" stroke-width="4" />
+    <line x1="0" y1="0" x2="0" y2="-60" stroke="#9c7c65" stroke-width="3" />
+    <line x1="60" y1="0" x2="60" y2="-60" stroke="#9c7c65" stroke-width="3" />
+  </g>
+  
+  <!-- Building 2 -->
+  <rect x="250" y="150" width="120" height="250" fill="#e6cbb5" />
+  <rect x="260" y="170" width="25" height="50" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="295" y="170" width="25" height="50" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="330" y="170" width="25" height="50" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  
+  <rect x="260" y="240" width="25" height="50" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="295" y="240" width="25" height="50" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="330" y="240" width="25" height="50" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  
+  <rect x="260" y="310" width="25" height="50" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="295" y="310" width="25" height="50" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="330" y="310" width="25" height="50" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  
+  <!-- Building 3 with balconies -->
+  <rect x="400" y="120" width="170" height="280" fill="#d8b795" />
+  
+  <!-- Windows -->
+  <rect x="415" y="140" width="35" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="465" y="140" width="35" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="515" y="140" width="35" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  
+  <rect x="415" y="220" width="35" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="465" y="220" width="35" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="515" y="220" width="35" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  
+  <rect x="415" y="300" width="35" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="465" y="300" width="35" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  <rect x="515" y="300" width="35" height="60" fill="#f8e9dd" stroke="#c49a76" stroke-width="1" />
+  
+  <!-- Balconies -->
+  <g transform="translate(410, 200)">
+    <rect x="0" y="0" width="45" height="10" fill="#9c7c65" />
+    <line x1="5" y1="0" x2="5" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="15" y1="0" x2="15" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="25" y1="0" x2="25" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="35" y1="0" x2="35" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="0" y1="-30" x2="45" y2="-30" stroke="#9c7c65" stroke-width="2" />
+  </g>
+  
+  <g transform="translate(460, 200)">
+    <rect x="0" y="0" width="45" height="10" fill="#9c7c65" />
+    <line x1="5" y1="0" x2="5" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="15" y1="0" x2="15" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="25" y1="0" x2="25" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="35" y1="0" x2="35" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="0" y1="-30" x2="45" y2="-30" stroke="#9c7c65" stroke-width="2" />
+  </g>
+  
+  <g transform="translate(510, 200)">
+    <rect x="0" y="0" width="45" height="10" fill="#9c7c65" />
+    <line x1="5" y1="0" x2="5" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="15" y1="0" x2="15" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="25" y1="0" x2="25" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="35" y1="0" x2="35" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="0" y1="-30" x2="45" y2="-30" stroke="#9c7c65" stroke-width="2" />
+  </g>
+  
+  <g transform="translate(410, 280)">
+    <rect x="0" y="0" width="45" height="10" fill="#9c7c65" />
+    <line x1="5" y1="0" x2="5" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="15" y1="0" x2="15" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="25" y1="0" x2="25" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="35" y1="0" x2="35" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="0" y1="-30" x2="45" y2="-30" stroke="#9c7c65" stroke-width="2" />
+  </g>
+  
+  <g transform="translate(460, 280)">
+    <rect x="0" y="0" width="45" height="10" fill="#9c7c65" />
+    <line x1="5" y1="0" x2="5" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="15" y1="0" x2="15" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="25" y1="0" x2="25" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="35" y1="0" x2="35" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="0" y1="-30" x2="45" y2="-30" stroke="#9c7c65" stroke-width="2" />
+  </g>
+  
+  <g transform="translate(510, 280)">
+    <rect x="0" y="0" width="45" height="10" fill="#9c7c65" />
+    <line x1="5" y1="0" x2="5" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="15" y1="0" x2="15" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="25" y1="0" x2="25" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="35" y1="0" x2="35" y2="-30" stroke="#9c7c65" stroke-width="2" />
+    <line x1="0" y1="-30" x2="45" y2="-30" stroke="#9c7c65" stroke-width="2" />
+  </g>
+  
+  <!-- Building 4 - Corner store/Dépanneur -->
+  <rect x="600" y="200" width="150" height="200" fill="#e6cbb5" />
+  <rect x="610" y="220" width="60" height="80" fill="#f8f0e6" stroke="#c49a76" stroke-width="2" /> <!-- Store window -->
+  <rect x="680" y="270" width="40" height="80" fill="#c49a76" /> <!-- Door -->
+  <rect x="685" y="275" width="30" height="70" fill="#d8b795" />
+  <text x="620" y="270" font-family="Arial" font-size="12" fill="#83624c">DÉPANNEUR</text>
+  
+  <!-- Street lamps -->
+  <g transform="translate(100, 400)">
+    <rect x="0" y="0" width="5" height="50" fill="#9c7c65" />
+    <circle cx="2.5" cy="0" r="8" fill="#fffaf0" opacity="0.7" />
+  </g>
+  
+  <g transform="translate(300, 400)">
+    <rect x="0" y="0" width="5" height="50" fill="#9c7c65" />
+    <circle cx="2.5" cy="0" r="8" fill="#fffaf0" opacity="0.7" />
+  </g>
+  
+  <g transform="translate(500, 400)">
+    <rect x="0" y="0" width="5" height="50" fill="#9c7c65" />
+    <circle cx="2.5" cy="0" r="8" fill="#fffaf0" opacity="0.7" />
+  </g>
+  
+  <g transform="translate(700, 400)">
+    <rect x="0" y="0" width="5" height="50" fill="#9c7c65" />
+    <circle cx="2.5" cy="0" r="8" fill="#fffaf0" opacity="0.7" />
+  </g>
+  
+  <!-- Trees lining the street -->
+  <g transform="translate(200, 350)">
+    <rect x="0" y="0" width="8" height="50" fill="#9c7c65" />
+    <circle cx="4" cy="-20" r="25" fill="#b78b68" />
+  </g>
+  
+  <g transform="translate(400, 350)">
+    <rect x="0" y="0" width="8" height="50" fill="#9c7c65" />
+    <circle cx="4" cy="-20" r="25" fill="#b78b68" />
+  </g>
+  
+  <g transform="translate(600, 350)">
+    <rect x="0" y="0" width="8" height="50" fill="#9c7c65" />
+    <circle cx="4" cy="-20" r="25" fill="#b78b68" />
+  </g>
+  
+  <!-- Minimal street sign -->
+  <g transform="translate(350, 380)">
+    <rect x="0" y="0" width="5" height="70" fill="#83624c" />
+    <rect x="-40" y="10" width="80" height="20" fill="#e6cbb5" stroke="#83624c" stroke-width="1" />
+    <text x="-30" y="25" font-family="Arial" font-size="12" fill="#83624c">RUE ST-DENIS</text>
+  </g>
+  
+  <!-- Montreal-style fire hydrant -->
+  <g transform="translate(150, 420)">
+    <rect x="0" y="0" width="10" height="15" fill="#9c7c65" />
+    <circle cx="5" cy="0" r="5" fill="#9c7c65" />
+  </g>
+  
+  <!-- Bicycles parked -->
+  <g transform="translate(220, 420)">
+    <ellipse cx="0" cy="0" rx="10" ry="5" fill="none" stroke="#83624c" stroke-width="1" />
+    <ellipse cx="25" cy="0" rx="10" ry="5" fill="none" stroke="#83624c" stroke-width="1" />
+    <line x1="0" y1="0" x2="25" y2="0" stroke="#83624c" stroke-width="1" />
+    <line x1="0" y1="-5" x2="0" y2="5" stroke="#83624c" stroke-width="1" />
+    <line x1="25" y1="-5" x2="25" y2="5" stroke="#83624c" stroke-width="1" />
+  </g>
+  
+  <!-- Bench -->
+  <g transform="translate(500, 420)">
+    <rect x="0" y="0" width="40" height="5" fill="#9c7c65" />
+    <rect x="5" y="5" width="5" height="10" fill="#9c7c65" />
+    <rect x="30" y="5" width="5" height="10" fill="#9c7c65" />
+  </g>
+  
+  <!-- Trash bin -->
+  <g transform="translate(550, 415)">
+    <rect x="0" y="0" width="10" height="15" fill="#83624c" />
+  </g>
+  
+  <!-- Distant Mount Royal silhouette -->
+  <path d="M0,120 Q200,50 400,90 Q600,50 800,100" fill="#c49a76" opacity="0.2" />
+  
+  <!-- Street musicians (minimal representation) -->
+  <g transform="translate(650, 420)">
+    <circle cx="0" cy="0" r="8" fill="#9c7c65" /> <!-- Head -->
+    <rect x="-5" y="8" width="10" height="12" fill="#b78b68" /> <!-- Body -->
+    <rect x="-10" y="10" width="5" height="8" fill="#b78b68" /> <!-- Arm -->
+    <rect x="5" y="10" width="15" height="2" fill="#83624c" /> <!-- Guitar neck -->
+    <rect x="5" y="12" width="7" height="7" fill="#c49a76" /> <!-- Guitar body -->
+  </g>
+  
+  <!-- People walking (minimal) -->
+  <g transform="translate(300, 435)">
+    <circle cx="0" cy="0" r="5" fill="#b78b68" /> <!-- Head -->
+    <rect x="-3" y="5" width="6" height="10" fill="#c49a76" /> <!-- Body -->
+    <line x1="-3" y1="15" x2="-5" y2="25" stroke="#c49a76" stroke-width="2" /> <!-- Leg -->
+    <line x1="3" y1="15" x2="5" y2="25" stroke="#c49a76" stroke-width="2" /> <!-- Leg -->
+  </g>
+  
+  <g transform="translate(330, 440)">
+    <circle cx="0" cy="0" r="5" fill="#83624c" /> <!-- Head -->
+    <rect x="-3" y="5" width="6" height="10" fill="#9c7c65" /> <!-- Body -->
+    <line x1="-3" y1="15" x2="-5" y2="25" stroke="#9c7c65" stroke-width="2" /> <!-- Leg -->
+    <line x1="3" y1="15" x2="5" y2="25" stroke="#9c7c65" stroke-width="2" /> <!-- Leg -->
+  </g>
+  
+  <!-- Café terrace with minimal tables -->
+  <g transform="translate(450, 420)">
+    <circle cx="0" cy="0" r="7" fill="#d8b795" stroke="#c49a76" stroke-width="1" /> <!-- Table -->
+    <circle cx="20" cy="0" r="7" fill="#d8b795" stroke="#c49a76" stroke-width="1" /> <!-- Table -->
+    <text x="-5" y="15" font-family="Arial" font-size="6" fill="#83624c">CAFÉ</text>
+  </g>
+  
+  <!-- Car (minimal) -->
+  <g transform="translate(370, 480)">
+    <rect x="0" y="0" width="50" height="15" rx="5" ry="5" fill="#b78b68" />
+    <rect x="5" y="-10" width="40" height="10" rx="3" ry="3" fill="#d8b795" />
+    <circle cx="10" cy="15" r="5" fill="#83624c" />
+    <circle cx="40" cy="15" r="5" fill="#83624c" />
+  </g>
+  
+  <!-- Metro station entrance (minimal) -->
+  <g transform="translate(100, 400)">
+    <rect x="40" y="0" width="30" height="15" fill="#c49a76" />
+    <path d="M40,0 L55,-15 L70,0" fill="#c49a76" />
+    <text x="47" y="10" font-family="Arial" font-size="6" fill="#f8e9dd">METRO</text>
+  </g>
+</svg>

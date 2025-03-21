@@ -1,0 +1,103 @@
+{
+"id": "[SCENE_ID]",
+"title": "[SCENE_TITLE]",
+"description": "[SCENE_DESCRIPTION]",
+"location": {
+    "id": "[LOCATION_ID]",
+    "name": "[LOCATION_NAME]",
+    "backgroundImage": "[BACKGROUND_IMAGE_FILENAME]"
+},
+"character": {
+    "id": "[CHARACTER_ID]",
+    "name": "[CHARACTER_NAME]",
+    "defaultImage": "[DEFAULT_CHARACTER_IMAGE_FILENAME]"
+},
+"languageDifficulty": "[DIFFICULTY_LEVEL]",
+"dialog": [
+    {
+    "speaker": "narrator",
+    "text": "[NARRATOR_TEXT]",
+    "languageVersion": null
+    },
+    {
+    "speaker": "[CHARACTER_ID]",
+    "text": "[CHARACTER_TEXT]",
+    "languageVersion": "[FRENCH_TEXT]",
+    "characterImage": "[CHARACTER_EXPRESSION_IMAGE]",
+    "audioFile": "[AUDIO_FILENAME]"
+    },
+    {
+    "speaker": "player",
+    "text": "[PLAYER_TEXT]",
+    "options": [
+        {
+        "text": "[PLAYER_OPTION_1_TEXT]",
+        "languageVersion": "[PLAYER_OPTION_1_FRENCH]",
+        "languageLevel": "[LANGUAGE_LEVEL]"
+        },
+        {
+        "text": "[PLAYER_OPTION_2_TEXT]",
+        "languageVersion": "[PLAYER_OPTION_2_FRENCH]",
+        "languageLevel": "[LANGUAGE_LEVEL]"
+        }
+    ]
+    }
+],
+"languageLearning": {
+    "vocabulary": [
+    {
+        "word": "[FRENCH_WORD]",
+        "romaji": "[PRONUNCIATION_GUIDE]",
+        "translation": "[ENGLISH_TRANSLATION]",
+        "usage": "[USAGE_CONTEXT]",
+        "example": "[EXAMPLE_SENTENCE]"
+    }
+    ],
+    "grammar": [
+    {
+        "pattern": "[GRAMMAR_PATTERN]",
+        "explanation": "[GRAMMAR_EXPLANATION]",
+        "examples": [
+        {
+            "french": "[FRENCH_EXAMPLE]",
+            "pronunciation": "[PRONUNCIATION]",
+            "translation": "[ENGLISH_TRANSLATION]"
+        }
+        ]
+    }
+    ],
+    "culturalNotes": [
+    {
+        "title": "[CULTURAL_NOTE_TITLE]",
+        "content": "[CULTURAL_NOTE_CONTENT]"
+    }
+    ],
+    "exercises": [
+    {
+        "type": "vocabulary-matching",
+        "instructions": "[EXERCISE_INSTRUCTIONS]",
+        "items": [
+        {"french": "[FRENCH_TERM]", "english": "[ENGLISH_TERM]"}
+        ]
+    },
+    {
+        "type": "dialog-completion",
+        "instructions": "[EXERCISE_INSTRUCTIONS]",
+        "dialog": [
+        {"speaker": "[SPEAKER_NAME]", "text": "[SPEAKER_TEXT]"},
+        {"speaker": "You", "text": "[BLANK_TO_FILL]"}
+        ],
+        "answers": [
+        {"correct": "[CORRECT_ANSWER]", "alternatives": ["[ALTERNATIVE_ANSWER]"]}
+        ]
+    }
+    ],
+    "progressTrackingPoints": {
+    "vocabulary": ["[VOCABULARY_CATEGORY]"],
+    "grammar": ["[GRAMMAR_CATEGORY]"],
+    "comprehension": [COMPREHENSION_POINTS]
+    }
+},
+"nextScene": "[NEXT_SCENE_ID]",
+"branchOptions": null
+}

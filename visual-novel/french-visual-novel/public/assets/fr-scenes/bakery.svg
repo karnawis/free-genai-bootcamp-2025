@@ -1,0 +1,343 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background gradient with same beige tones -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8e9dd" />
+      <stop offset="100%" stop-color="#e6cbb5" />
+    </linearGradient>
+    
+    <!-- Soft light from window -->
+    <radialGradient id="windowLight" cx="70%" cy="30%" r="50%" fx="70%" fy="30%">
+      <stop offset="0%" stop-color="#fffaf0" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#fffaf0" stop-opacity="0" />
+    </radialGradient>
+    
+    <!-- Brick pattern -->
+    <pattern id="brickPattern" patternUnits="userSpaceOnUse" width="60" height="30" patternTransform="scale(0.5)">
+      <rect width="60" height="30" fill="#c49a76" />
+      <rect width="55" height="25" x="2.5" y="2.5" fill="#d8b795" />
+      <rect width="60" height="2" fill="#b78b68" />
+      <rect width="2" height="30" fill="#b78b68" />
+      <rect width="2" height="30" x="30" fill="#b78b68" />
+      <rect width="60" height="2" y="15" fill="#b78b68" />
+    </pattern>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="800" height="600" fill="url(#bgGradient)" />
+  
+  <!-- Window light -->
+  <rect width="800" height="600" fill="url(#windowLight)" />
+  
+  <!-- Wooden floor -->
+  <rect x="0" y="500" width="800" height="100" fill="#9c7c65" />
+  <g opacity="0.2">
+    <line x1="0" y1="520" x2="800" y2="520" stroke="#83624c" stroke-width="1" />
+    <line x1="0" y1="550" x2="800" y2="550" stroke="#83624c" stroke-width="1" />
+    <line x1="0" y1="580" x2="800" y2="580" stroke="#83624c" stroke-width="1" />
+  </g>
+  
+  <!-- Brick wall on left -->
+  <rect x="0" y="0" width="30" height="500" fill="url(#brickPattern)" />
+  <rect x="0" y="0" width="800" height="30" fill="url(#brickPattern)" />
+  <rect x="0" y="0" width="400" height="500" fill="url(#brickPattern)" opacity="0.8" />
+  
+  <!-- Windows on right wall -->
+  <rect x="550" y="70" width="150" height="200" fill="#e6cbb5" stroke="#c49a76" stroke-width="3" />
+  <line x1="550" y1="170" x2="700" y2="170" stroke="#c49a76" stroke-width="3" />
+  <line x1="625" y1="70" x2="625" y2="270" stroke="#c49a76" stroke-width="3" />
+  
+  <!-- Counter with pastry display -->
+  <rect x="400" y="350" width="350" height="150" fill="#c49a76" />
+  <rect x="410" y="360" width="330" height="130" fill="#d8b795" />
+  
+  <!-- Pastry display case -->
+  <rect x="430" y="380" width="290" height="90" fill="#f8f0e6" stroke="#c49a76" stroke-width="2" />
+  <line x1="430" y1="405" x2="720" y2="405" stroke="#c49a76" stroke-width="1" />
+  <line x1="430" y1="430" x2="720" y2="430" stroke="#c49a76" stroke-width="1" />
+  <line x1="430" y1="455" x2="720" y2="455" stroke="#c49a76" stroke-width="1" />
+  
+  <!-- Pastries in display case -->
+  <!-- Row 1 -->
+  <g transform="translate(440, 390)">
+    <!-- Croissants -->
+    <path d="M10,0 C15,-3 20,0 22,5 C24,0 29,-3 34,0" stroke="#e2b97f" stroke-width="5" fill="none" stroke-linecap="round" />
+    <path d="M10,0 C15,-3 20,0 22,5 C24,0 29,-3 34,0" stroke="#f2d0a0" stroke-width="3" fill="none" stroke-linecap="round" />
+    
+    <!-- French label -->
+    <text x="17" y="15" font-family="Arial" font-size="4" fill="#83624c">Croissant</text>
+  </g>
+  
+  <g transform="translate(490, 390)">
+    <!-- Pain au chocolat -->
+    <rect x="0" y="0" width="15" height="7" fill="#e2b97f" />
+    <rect x="1" y="1" width="13" height="5" fill="#f2d0a0" />
+    <line x1="5" y1="1" x2="5" y2="6" stroke="#83624c" stroke-width="0.5" />
+    <line x1="10" y1="1" x2="10" y2="6" stroke="#83624c" stroke-width="0.5" />
+    
+    <!-- French label -->
+    <text x="-7" y="15" font-family="Arial" font-size="4" fill="#83624c">Pain au Chocolat</text>
+  </g>
+  
+  <g transform="translate(550, 390)">
+    <!-- Éclair -->
+    <rect x="0" y="0" width="20" height="5" rx="2" ry="2" fill="#83624c" />
+    <rect x="1" y="1" width="18" height="3" rx="1" ry="1" fill="#b78b68" />
+    
+    <!-- French label -->
+    <text x="5" y="15" font-family="Arial" font-size="4" fill="#83624c">Éclair</text>
+  </g>
+  
+  <g transform="translate(590, 390)">
+    <!-- Macaron -->
+    <ellipse cx="5" cy="1" rx="5" ry="1" fill="#d8b795" />
+    <ellipse cx="5" cy="4" rx="5" ry="1" fill="#d8b795" />
+    <rect x="0" y="1" width="10" height="3" fill="#e6cbb5" />
+    
+    <!-- French label -->
+    <text x="0" y="15" font-family="Arial" font-size="4" fill="#83624c">Macaron</text>
+  </g>
+  
+  <g transform="translate(620, 390)">
+    <!-- Tarte -->
+    <path d="M0,5 L5,0 L15,0 L20,5 Z" fill="#e2b97f" />
+    <path d="M2,5 L6,1 L14,1 L18,5 Z" fill="#f2d0a0" />
+    <circle cx="10" cy="3" r="1" fill="#83624c" />
+    
+    <!-- French label -->
+    <text x="5" y="15" font-family="Arial" font-size="4" fill="#83624c">Tarte</text>
+  </g>
+  
+  <g transform="translate(660, 390)">
+    <!-- Madeleine -->
+    <ellipse cx="7" cy="3" rx="7" ry="3" fill="#e2b97f" />
+    <ellipse cx="7" cy="3" rx="6" ry="2" fill="#f2d0a0" />
+    <path d="M4,2 L10,2" stroke="#83624c" stroke-width="0.3" />
+    
+    <!-- French label -->
+    <text x="0" y="15" font-family="Arial" font-size="4" fill="#83624c">Madeleine</text>
+  </g>
+  
+  <!-- Row 2 with more pastries (simplified) -->
+  <g transform="translate(440, 415)">
+    <rect x="0" y="0" width="10" height="10" rx="5" ry="5" fill="#e2b97f" />
+    <rect x="1" y="1" width="8" height="8" rx="4" ry="4" fill="#f2d0a0" />
+    <text x="-3" y="20" font-family="Arial" font-size="4" fill="#83624c">Brioche</text>
+  </g>
+  
+  <g transform="translate(490, 415)">
+    <rect x="0" y="0" width="15" height="10" fill="#e2b97f" />
+    <rect x="1" y="1" width="13" height="8" fill="#f2d0a0" />
+    <text x="-5" y="20" font-family="Arial" font-size="4" fill="#83624c">Millefeuille</text>
+  </g>
+  
+  <g transform="translate(550, 415)">
+    <circle cx="7" cy="5" r="5" fill="#e2b97f" />
+    <circle cx="7" cy="5" r="4" fill="#f2d0a0" />
+    <text x="0" y="20" font-family="Arial" font-size="4" fill="#83624c">Chouquette</text>
+  </g>
+  
+  <g transform="translate(590, 415)">
+    <rect x="0" y="0" width="15" height="10" rx="2" ry="2" fill="#e2b97f" />
+    <rect x="1" y="1" width="13" height="8" rx="1" ry="1" fill="#f2d0a0" />
+    <text x="0" y="20" font-family="Arial" font-size="4" fill="#83624c">Financier</text>
+  </g>
+  
+  <g transform="translate(660, 415)">
+    <circle cx="5" cy="5" r="5" fill="#9c7c65" />
+    <circle cx="5" cy="5" r="4" fill="#b78b68" />
+    <text x="-3" y="20" font-family="Arial" font-size="4" fill="#83624c">Canelé</text>
+  </g>
+  
+  <!-- Chalkboard menu -->
+  <rect x="400" y="70" width="120" height="200" fill="#3c3c3c" />
+  <rect x="403" y="73" width="114" height="194" fill="#4a4a4a" />
+  
+  <!-- Menu items in French with English -->
+  <g font-family="Arial">
+    <text x="415" y="95" fill="#f8e9dd" font-size="8" font-weight="bold">MENU</text>
+    <line x1="410" y1="100" x2="510" y2="100" stroke="#f8e9dd" stroke-width="1" />
+    
+    <text x="410" y="120" fill="#f8e9dd" font-size="6">Café au lait</text>
+    <text x="410" y="128" fill="#e6cbb5" font-size="4">(Coffee with milk)</text>
+    
+    <text x="410" y="145" fill="#f8e9dd" font-size="6">Chocolat chaud</text>
+    <text x="410" y="153" fill="#e6cbb5" font-size="4">(Hot chocolate)</text>
+    
+    <text x="410" y="170" fill="#f8e9dd" font-size="6">Thé à la menthe</text>
+    <text x="410" y="178" fill="#e6cbb5" font-size="4">(Mint tea)</text>
+    
+    <text x="410" y="195" fill="#f8e9dd" font-size="6">Croque Monsieur</text>
+    <text x="410" y="203" fill="#e6cbb5" font-size="4">(Ham & cheese sandwich)</text>
+    
+    <text x="410" y="220" fill="#f8e9dd" font-size="6">Quiche Lorraine</text>
+    <text x="410" y="228" fill="#e6cbb5" font-size="4">(Bacon egg tart)</text>
+    
+    <text x="410" y="245" fill="#f8e9dd" font-size="6">Salade Niçoise</text>
+    <text x="410" y="253" fill="#e6cbb5" font-size="4">(Tuna salad)</text>
+  </g>
+  
+  <!-- Artwork on the brick wall -->
+  <!-- Montreal skyline art -->
+  <rect x="70" y="80" width="80" height="60" fill="#e6cbb5" stroke="#c49a76" stroke-width="2" />
+  <g transform="translate(75, 85)" opacity="0.8">
+    <line x1="0" y1="50" x2="70" y2="50" stroke="#83624c" stroke-width="1" />
+    <path d="M5,50 L5,40 L10,40 L10,35 L15,35 L15,25 L20,25 L20,30 L25,30 L25,20 L30,20 L30,40 L35,40 L35,45 L40,45 L40,30 L45,30 L45,35 L50,35 L50,25 L55,25 L55,45 L60,45 L60,35 L65,35 L65,50" fill="#b78b68" />
+  </g>
+  
+  <!-- Concert poster -->
+  <rect x="180" y="80" width="60" height="80" fill="#e6cbb5" stroke="#c49a76" stroke-width="2" />
+  <rect x="185" y="85" width="50" height="70" fill="#f8e9dd" />
+  <text x="190" y="100" font-family="Arial" font-size="5" fill="#83624c" font-weight="bold">FESTIVAL</text>
+  <text x="195" y="108" font-family="Arial" font-size="5" fill="#83624c" font-weight="bold">DE JAZZ</text>
+  <text x="203" y="116" font-family="Arial" font-size="4" fill="#83624c">MONTRÉAL</text>
+  <line x1="190" y1="120" x2="230" y2="120" stroke="#c49a76" stroke-width="1" />
+  <text x="195" y="130" font-family="Arial" font-size="4" fill="#83624c">28 JUIN -</text>
+  <text x="195" y="137" font-family="Arial" font-size="4" fill="#83624c">7 JUILLET</text>
+  
+  <!-- Abstract art -->
+  <rect x="270" y="80" width="70" height="70" fill="#e6cbb5" stroke="#c49a76" stroke-width="2" />
+  <g transform="translate(275, 85)">
+    <circle cx="30" cy="30" r="25" fill="#f8e9dd" />
+    <path d="M15,15 L45,45 M15,45 L45,15" stroke="#c49a76" stroke-width="2" />
+    <circle cx="30" cy="30" r="10" fill="#b78b68" />
+  </g>
+  
+  <!-- Bulletin board -->
+  <rect x="70" y="170" width="140" height="100" fill="#c49a76" />
+  <rect x="75" y="175" width="130" height="90" fill="#e6cbb5" />
+  
+  <!-- Flyers on bulletin board -->
+  <g transform="translate(80, 180)">
+    <!-- Language exchange flyer -->
+    <rect x="0" y="0" width="35" height="25" fill="#f8e9dd" />
+    <text x="2" y="8" font-family="Arial" font-size="4" fill="#83624c" font-weight="bold">ÉCHANGE</text>
+    <text x="4" y="13" font-family="Arial" font-size="4" fill="#83624c" font-weight="bold">LINGUISTIQUE</text>
+    <text x="4" y="18" font-family="Arial" font-size="3" fill="#83624c">FR | EN | ES</text>
+  </g>
+  
+  <g transform="translate(125, 180)">
+    <!-- Concert flyer -->
+    <rect x="0" y="0" width="30" height="25" fill="#f8f0e6" />
+    <text x="2" y="8" font-family="Arial" font-size="4" fill="#83624c" font-weight="bold">INDIE ROCK</text>
+    <text x="8" y="13" font-family="Arial" font-size="3" fill="#83624c">SAM 20h</text>
+    <line x1="5" y1="15" x2="25" y2="15" stroke="#c49a76" stroke-width="0.5" />
+    <text x="2" y="20" font-family="Arial" font-size="3" fill="#83624c">Cafe Campus</text>
+  </g>
+  
+  <g transform="translate(80, 215)">
+    <!-- McGill study group -->
+    <rect x="0" y="0" width="40" height="20" fill="#f8f0e6" />
+    <text x="2" y="8" font-family="Arial" font-size="4" fill="#83624c" font-weight="bold">GROUPE D'ÉTUDE</text>
+    <text x="2" y="14" font-family="Arial" font-size="3" fill="#83624c">McGill - Sciences</text>
+  </g>
+  
+  <g transform="translate(130, 215)">
+    <!-- Art exhibition -->
+    <rect x="0" y="0" width="35" height="30" fill="#f8f0e6" />
+    <text x="2" y="8" font-family="Arial" font-size="4" fill="#83624c" font-weight="bold">EXPOSITION</text>
+    <text x="5" y="14" font-family="Arial" font-size="3" fill="#83624c">Art Québécois</text>
+    <text x="10" y="20" font-family="Arial" font-size="3" fill="#83624c">15-30 Mar</text>
+  </g>
+  
+  <g transform="translate(90, 240)">
+    <!-- Job posting -->
+    <rect x="0" y="0" width="35" height="20" fill="#f8f0e6" />
+    <text x="2" y="8" font-family="Arial" font-size="4" fill="#83624c" font-weight="bold">BARISTA</text>
+    <text x="3" y="14" font-family="Arial" font-size="3" fill="#83624c">Bilingue | Temps partiel</text>
+  </g>
+  
+  <!-- Tables and seating -->
+  <!-- Table 1 with chairs -->
+  <g transform="translate(100, 320)">
+    <circle cx="30" cy="30" r="25" fill="#c49a76" />
+    <circle cx="30" cy="30" r="22" fill="#d8b795" />
+    
+    <!-- Chairs -->
+    <rect x="5" y="25" width="10" height="10" rx="2" ry="2" fill="#c49a76" />
+    <rect x="45" y="25" width="10" height="10" rx="2" ry="2" fill="#c49a76" />
+    <rect x="25" y="5" width="10" height="10" rx="2" ry="2" fill="#c49a76" />
+    <rect x="25" y="45" width="10" height="10" rx="2" ry="2" fill="#c49a76" />
+    
+    <!-- Coffee cups -->
+    <circle cx="20" cy="25" r="3" fill="#f8f0e6" />
+    <rect x="20" y="25" width="3" height="2" fill="#f8f0e6" />
+    <circle cx="40" cy="35" r="3" fill="#f8f0e6" />
+    <rect x="37" y="35" width="3" height="2" fill="#f8f0e6" />
+  </g>
+  
+  <!-- Table 2 with people represented minimally -->
+  <g transform="translate(220, 350)">
+    <rect x="0" y="0" width="60" height="40" rx="2" ry="2" fill="#c49a76" />
+    <rect x="2" y="2" width="56" height="36" rx="1" ry="1" fill="#d8b795" />
+    
+    <!-- Chairs -->
+    <rect x="-10" y="15" width="10" height="10" rx="2" ry="2" fill="#c49a76" />
+    <rect x="60" y="15" width="10" height="10" rx="2" ry="2" fill="#c49a76" />
+    
+    <!-- People representations (minimal) -->
+    <circle cx="15" cy="10" r="5" fill="#b78b68" />
+    <rect x="10" y="15" width="10" height="15" fill="#9c7c65" />
+    
+    <circle cx="45" cy="10" r="5" fill="#d8b795" />
+    <rect x="40" y="15" width="10" height="15" fill="#c49a76" />
+    
+    <!-- Books/laptops -->
+    <rect x="15" y="20" width="8" height="6" fill="#f8f0e6" />
+    <rect x="37" y="20" width="10" height="6" fill="#9c7c65" />
+  </g>
+  
+  <!-- Cozy corner with armchairs -->
+  <g transform="translate(300, 400)">
+    <!-- Armchair 1 -->
+    <rect x="0" y="0" width="25" height="20" rx="3" ry="3" fill="#c49a76" />
+    <rect x="2" y="2" width="21" height="16" rx="2" ry="2" fill="#d8b795" />
+    <rect x="-3" y="0" width="3" height="20" fill="#c49a76" />
+    <rect x="25" y="0" width="3" height="20" fill="#c49a76" />
+    
+    <!-- Armchair 2 -->
+    <rect x="40" y="0" width="25" height="20" rx="3" ry="3" fill="#c49a76" />
+    <rect x="42" y="2" width="21" height="16" rx="2" ry="2" fill="#d8b795" />
+    <rect x="37" y="0" width="3" height="20" fill="#c49a76" />
+    <rect x="65" y="0" width="3" height="20" fill="#c49a76" />
+    
+    <!-- Small table -->
+    <rect x="27" y="5" width="13" height="10" fill="#c49a76" />
+    <rect x="28" y="6" width="11" height="8" fill="#d8b795" />
+    
+    <!-- Book on table -->
+    <rect x="30" y="6" width="7" height="5" fill="#f8f0e6" />
+  </g>
+  
+  <!-- Music note symbols floating in the air to represent music playing -->
+  <g transform="translate(500, 160)" opacity="0.5">
+    <path d="M0,0 C2,-5 5,-7 7,-2 C9,3 5,5 3,2 C1,-1 3,-3 5,-1" stroke="#83624c" stroke-width="1" fill="none" />
+    <line x1="7" y1="-2" x2="7" y2="8" stroke="#83624c" stroke-width="1" />
+    <circle cx="7" cy="8" r="2" fill="#83624c" />
+  </g>
+  
+  <g transform="translate(520, 120)" opacity="0.5">
+    <path d="M0,0 C2,-5 5,-7 7,-2 C9,3 5,5 3,2 C1,-1 3,-3 5,-1" stroke="#83624c" stroke-width="1" fill="none" />
+    <line x1="7" y1="-2" x2="7" y2="8" stroke="#83624c" stroke-width="1" />
+    <circle cx="7" cy="8" r="2" fill="#83624c" />
+  </g>
+  
+  <!-- McGill university reference -->
+  <rect x="270" y="190" width="80" height="40" fill="#e6cbb5" stroke="#c49a76" stroke-width="2" />
+  <text x="290" y="210" font-family="Arial" font-size="7" fill="#83624c" font-weight="bold">McGill</text>
+  <text x="285" y="220" font-family="Arial" font-size="5" fill="#83624c">Université</text>
+  
+  <!-- Café name at top -->
+  <text x="90" y="55" font-family="Arial" font-size="14" fill="#83624c" font-weight="bold">Café Bilingue</text>
+  
+  <!-- Plants for added warmth -->
+  <g transform="translate(350, 80)">
+    <rect x="0" y="0" width="10" height="15" fill="#9c7c65" />
+    <path d="M5,0 C0,-10 -5,-5 5,-15 C15,-5 10,-10 5,0" fill="#83624c" />
+  </g>
+  
+  <g transform="translate(700, 300)">
+    <rect x="0" y="0" width="10" height="15" fill="#9c7c65" />
+    <path d="M5,0 C0,-10 -5,-5 5,-15 C15,-5 10,-10 5,0" fill="#83624c" />
+  </g>
+</svg>

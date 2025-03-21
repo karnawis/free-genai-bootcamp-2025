@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <!-- Background gradient in Gris style -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#f8e9dd" />
+      <stop offset="100%" stop-color="#e6cbb5" />
+    </linearGradient>
+    
+    <!-- Soft light from window -->
+    <radialGradient id="windowLight" cx="15%" cy="40%" r="40%" fx="15%" fy="40%">
+      <stop offset="0%" stop-color="#fffaf0" stop-opacity="0.4" />
+      <stop offset="100%" stop-color="#fffaf0" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="800" height="600" fill="url(#bgGradient)" />
+  
+  <!-- Window light -->
+  <rect width="800" height="600" fill="url(#windowLight)" />
+  
+  <!-- Wooden floor -->
+  <rect x="0" y="500" width="800" height="100" fill="#9c7c65" />
+  <g opacity="0.2">
+    <line x1="0" y1="520" x2="800" y2="520" stroke="#83624c" stroke-width="1" />
+    <line x1="0" y1="550" x2="800" y2="550" stroke="#83624c" stroke-width="1" />
+    <line x1="0" y1="580" x2="800" y2="580" stroke="#83624c" stroke-width="1" />
+  </g>
+  
+  <!-- Left wall shelving unit -->
+  <rect x="50" y="100" width="280" height="350" fill="#c49a76" />
+  <rect x="60" y="110" width="260" height="330" fill="#d8b795" />
+  
+  <!-- Shelf dividers -->
+  <rect x="60" y="180" width="260" height="3" fill="#c49a76" />
+  <rect x="60" y="260" width="260" height="3" fill="#c49a76" />
+  <rect x="60" y="340" width="260" height="3" fill="#c49a76" />
+  <rect x="60" y="420" width="260" height="3" fill="#c49a76" />
+  
+  <!-- Right wall shelving unit -->
+  <rect x="470" y="100" width="280" height="350" fill="#c49a76" />
+  <rect x="480" y="110" width="260" height="330" fill="#d8b795" />
+  
+  <!-- Shelf dividers -->
+  <rect x="480" y="180" width="260" height="3" fill="#c49a76" />
+  <rect x="480" y="260" width="260" height="3" fill="#c49a76" />
+  <rect x="480" y="340" width="260" height="3" fill="#c49a76" />
+  <rect x="480" y="420" width="260" height="3" fill="#c49a76" />
+  
+  <!-- Window silhouette -->
+  <rect x="350" y="80" width="100" height="180" fill="#e6cbb5" stroke="#c49a76" stroke-width="3" />
+  <line x1="350" y1="170" x2="450" y2="170" stroke="#c49a76" stroke-width="3" />
+  <line x1="400" y1="80" x2="400" y2="260" stroke="#c49a76" stroke-width="3" />
+  
+  <!-- Counter -->
+  <rect x="200" y="420" width="400" height="80" fill="#c49a76" />
+  <rect x="210" y="430" width="380" height="60" fill="#d8b795" />
+  
+  <!-- Baguettes on the left shelf -->
+  <!-- Top shelf -->
+  <g transform="translate(80, 120)">
+    <path d="M0,25 C10,22 50,5 60,10 C70,15 180,15 190,10 C200,5 220,25 230,25" stroke="#e2b97f" stroke-width="6" fill="none" />
+    <path d="M0,25 C10,22 50,5 60,10 C70,15 180,15 190,10 C200,5 220,25 230,25" stroke="#f2d0a0" stroke-width="4" fill="none" />
+  </g>
+  <g transform="translate(80, 145)">
+    <path d="M30,25 C40,22 80,5 90,10 C100,15 170,15 180,10 C190,5 210,25 220,25" stroke="#e2b97f" stroke-width="6" fill="none" />
+    <path d="M30,25 C40,22 80,5 90,10 C100,15 170,15 180,10 C190,5 210,25 220,25" stroke="#f2d0a0" stroke-width="4" fill="none" />
+  </g>
+  
+  <!-- Second shelf -->
+  <g transform="translate(70, 200)">
+    <path d="M10,25 C20,22 60,5 70,10 C80,15 190,15 200,10 C210,5 230,25 240,25" stroke="#e2b97f" stroke-width="6" fill="none" />
+    <path d="M10,25 C20,22 60,5 70,10 C80,15 190,15 200,10 C210,5 230,25 240,25" stroke="#f2d0a0" stroke-width="4" fill="none" />
+  </g>
+  
+  <!-- Croissants on shelves (right side) -->
+  <!-- Top shelf -->
+  <g>
+    <!-- Row 1 -->
+    <path d="M500,130 C520,120 540,130 550,150 C560,130 580,120 600,130" stroke="#e2b97f" stroke-width="10" fill="none" stroke-linecap="round" />
+    <path d="M500,130 C520,120 540,130 550,150 C560,130 580,120 600,130" stroke="#f2d0a0" stroke-width="8" fill="none" stroke-linecap="round" />
+    
+    <path d="M620,130 C640,120 660,130 670,150 C680,130 700,120 720,130" stroke="#e2b97f" stroke-width="10" fill="none" stroke-linecap="round" />
+    <path d="M620,130 C640,120 660,130 670,150 C680,130 700,120 720,130" stroke="#f2d0a0" stroke-width="8" fill="none" stroke-linecap="round" />
+    
+    <!-- Row 2 -->
+    <path d="M530,160 C550,150 570,160 580,180 C590,160 610,150 630,160" stroke="#e2b97f" stroke-width="10" fill="none" stroke-linecap="round" />
+    <path d="M530,160 C550,150 570,160 580,180 C590,160 610,150 630,160" stroke="#f2d0a0" stroke-width="8" fill="none" stroke-linecap="round" />
+    
+    <path d="M650,160 C670,150 690,160 700,180 C710,160 730,150 750,160" stroke="#e2b97f" stroke-width="10" fill="none" stroke-linecap="round" />
+    <path d="M650,160 C670,150 690,160 700,180 C710,160 730,150 750,160" stroke="#f2d0a0" stroke-width="8" fill="none" stroke-linecap="round" />
+  </g>
+  
+  <!-- Second shelf -->
+  <g>
+    <!-- Row 1 -->
+    <path d="M500,210 C520,200 540,210 550,230 C560,210 580,200 600,210" stroke="#e2b97f" stroke-width="10" fill="none" stroke-linecap="round" />
+    <path d="M500,210 C520,200 540,210 550,230 C560,210 580,200 600,210" stroke="#f2d0a0" stroke-width="8" fill="none" stroke-linecap="round" />
+    
+    <path d="M620,210 C640,200 660,210 670,230 C680,210 700,200 720,210" stroke="#e2b97f" stroke-width="10" fill="none" stroke-linecap="round" />
+    <path d="M620,210 C640,200 660,210 670,230 C680,210 700,200 720,210" stroke="#f2d0a0" stroke-width="8" fill="none" stroke-linecap="round" />
+    
+    <!-- Row 2 -->
+    <path d="M530,240 C550,230 570,240 580,260 C590,240 610,230 630,240" stroke="#e2b97f" stroke-width="10" fill="none" stroke-linecap="round" />
+    <path d="M530,240 C550,230 570,240 580,260 C590,240 610,230 630,240" stroke="#f2d0a0" stroke-width="8" fill="none" stroke-linecap="round" />
+    
+    <path d="M650,240 C670,230 690,240 700,260 C710,240 730,230 750,240" stroke="#e2b97f" stroke-width="10" fill="none" stroke-linecap="round" />
+    <path d="M650,240 C670,230 690,240 700,260 C710,240 730,230 750,240" stroke="#f2d0a0" stroke-width="8" fill="none" stroke-linecap="round" />
+  </g>
+  
+  <!-- More bread varieties on left lower shelves -->
+  <g transform="translate(90, 280)">
+    <!-- Round bread loaves -->
+    <circle cx="30" cy="30" r="25" fill="#e2b97f" />
+    <circle cx="30" cy="30" r="22" fill="#f2d0a0" />
+    <path d="M20,20 L40,40 M20,40 L40,20" stroke="#d9b383" stroke-width="2" />
+    
+    <circle cx="100" cy="30" r="25" fill="#e2b97f" />
+    <circle cx="100" cy="30" r="22" fill="#f2d0a0" />
+    <path d="M90,20 L110,40 M90,40 L110,20" stroke="#d9b383" stroke-width="2" />
+    
+    <circle cx="170" cy="30" r="25" fill="#e2b97f" />
+    <circle cx="170" cy="30" r="22" fill="#f2d0a0" />
+    <path d="M160,20 L180,40 M160,40 L180,20" stroke="#d9b383" stroke-width="2" />
+  </g>
+  
+  <!-- Bread on counter -->
+  <g transform="translate(300, 450)">
+    <!-- Basket with baguettes -->
+    <ellipse cx="50" cy="15" rx="45" ry="15" fill="#bf8e63" />
+    <path d="M10,15 C10,30 90,30 90,15" fill="#bf8e63" />
+    
+    <!-- Baguette tips showing -->
+    <path d="M20,10 L30,0 L40,10" stroke="#e2b97f" stroke-width="6" fill="none" stroke-linecap="round" />
+    <path d="M20,10 L30,0 L40,10" stroke="#f2d0a0" stroke-width="4" fill="none" stroke-linecap="round" />
+    
+    <path d="M50,8 L60,-2 L70,8" stroke="#e2b97f" stroke-width="6" fill="none" stroke-linecap="round" />
+    <path d="M50,8 L60,-2 L70,8" stroke="#f2d0a0" stroke-width="4" fill="none" stroke-linecap="round" />
+  </g>
+  
+  <g transform="translate(400, 440)">
+    <!-- Display plate with croissants -->
+    <ellipse cx="60" cy="25" rx="50" ry="15" fill="#f8f0e6" stroke="#e6cbb5" stroke-width="1" />
+    
+    <!-- Croissants -->
+    <path d="M40,20 C50,15 60,20 65,30 C70,20 80,15 90,20" stroke="#e2b97f" stroke-width="10" fill="none" stroke-linecap="round" />
+    <path d="M40,20 C50,15 60,20 65,30 C70,20 80,15 90,20" stroke="#f2d0a0" stroke-width="8" fill="none" stroke-linecap="round" />
+    
+    <path d="M30,35 C40,30 50,35 55,45 C60,35 70,30 80,35" stroke="#e2b97f" stroke-width="10" fill="none" stroke-linecap="round" />
+    <path d="M30,35 C40,30 50,35 55,45 C60,35 70,30 80,35" stroke="#f2d0a0" stroke-width="8" fill="none" stroke-linecap="round" />
+  </g>
+  
+  <!-- Subtle shadows -->
+  <rect x="50" y="450" width="280" height="10" fill="#83624c" opacity="0.3" />
+  <rect x="470" y="450" width="280" height="10" fill="#83624c" opacity="0.3" />
+  <rect x="200" y="500" width="400" height="10" fill="#83624c" opacity="0.3" />
+  
+  <!-- Small decorative details -->
+  <circle cx="350" cy="470" r="5" fill="#c49a76" />
+  <circle cx="450" cy="470" r="5" fill="#c49a76" />
+  
+  <!-- Subtle paper bag -->
+  <path d="M230,460 L230,440 L235,430 L265,430 L270,440 L270,460 Z" fill="#e6d5c3" />
+  <path d="M240,430 L240,420 L260,420 L260,430" fill="none" stroke="#d6c5b3" stroke-width="1" />
+</svg>

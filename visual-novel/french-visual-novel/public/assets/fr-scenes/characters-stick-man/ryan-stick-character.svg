@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 500">
+  <!-- Background -->
+  <rect width="400" height="500" fill="#ffffff"/>
+  
+  <!-- Basic Stick Figure with curved lines -->
+  <g id="character">
+    <!-- Head -->
+    <circle cx="200" cy="100" r="50" fill="none" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Shaggy dark hair -->
+    <path d="M160 70 C180 50, 220 50, 240 70" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M160 70 C160 90, 165 100, 170 105" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M240 70 C240 90, 235 100, 230 105" stroke="#000000" stroke-width="3" fill="none"/>
+    <!-- Messy hair details -->
+    <path d="M175 60 C180 50, 190 45, 200 50" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M225 60 C220 50, 210 45, 200 50" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M155 80 C150 70, 155 60, 165 65" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M245 80 C250 70, 245 60, 235 65" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Face features -->
+    <!-- Eyes with casual, relaxed eyebrows -->
+    <circle cx="180" cy="90" r="7" fill="#000000"/>
+    <circle cx="220" cy="90" r="7" fill="#000000"/>
+    <path d="M170 80 C175 75, 185 78, 190 80" stroke="#000000" stroke-width="2" fill="none"/>
+    <path d="M210 80 C215 78, 225 75, 230 80" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Laid-back smile -->
+    <path d="M180 120 C190 125, 210 125, 220 120" stroke="#000000" stroke-width="2" fill="none"/>
+    
+    <!-- Neck -->
+    <line x1="200" y1="150" x2="200" y2="170" stroke="#000000" stroke-width="3"/>
+    
+    <!-- UBC hoodie outline -->
+    <path d="M170 170 L160 300 L240 300 L230 170" stroke="#000000" stroke-width="3" fill="none"/>
+    
+    <!-- Hoodie details -->
+    <!-- Hood -->
+    <path d="M180 170 C190 160, 210 160, 220 170" stroke="#000000" stroke-width="2" fill="none"/>
+    <!-- Pocket -->
+    <path d="M175 240 L225 240 L220 270 L180 270 Z" stroke="#000000" stroke-width="2" fill="none"/>
+    <!-- UBC text -->
+    <text x="200" y="210" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle">UBC</text>
+    
+    <!-- Arms - casual, curved posture -->
+    <path d="M170 180 C140 200, 110 210, 90 230" stroke="#000000" stroke-width="3" fill="none"/>
+    <path d="M230 180 C260 200, 290 210, 310 230" stroke="#000000" stroke-width="3" fill="none"/>
+    
+    <!-- Hands - circular -->
+    <circle cx="90" cy="230" r="12" fill="none" stroke="#000000" stroke-width="3"/>
+    <circle cx="310" cy="230" r="12" fill="none" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Jeans - straight legs like reference image -->
+    <line x1="200" y1="300" x2="170" y2="430" stroke="#000000" stroke-width="3"/>
+    <line x1="200" y1="300" x2="230" y2="430" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Simple circular feet like reference -->
+    <circle cx="170" cy="430" r="10" fill="none" stroke="#000000" stroke-width="3"/>
+    <circle cx="230" cy="430" r="10" fill="none" stroke="#000000" stroke-width="3"/>
+    
+    <!-- Latest smartphone -->
+    <rect x="75" y="200" width="20" height="35" rx="2" ry="2" stroke="#000000" stroke-width="2" fill="none"/>
+    <line x1="85" y1="205" x2="85" y2="205" stroke="#000000" stroke-width="1"/>
+    <line x1="80" y1="230" x2="90" y2="230" stroke="#000000" stroke-width="1"/>
+    
+    <!-- Vancouver/homesick element - small maple leaf -->
+    <path d="M225 295 L230 285 L235 295 L225 295" stroke="#000000" stroke-width="1.5" fill="none"/>
+  </g>
+</svg>
