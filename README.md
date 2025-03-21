@@ -13,7 +13,7 @@ This course is ran by Andrew Brown ([exampro.com](https://exampro.co/exp-genai-0
 
 ### Andew's Repository
 
-[repo](https://github.com/omenking/free-genai-bootcamp-2025/
+[repo](https://github.com/omenking/free-genai-bootcamp-2025/)
 [OPEA](https://github.com/omenking/free-genai-bootcamp-2025/tree/main/opea-comps)
 
 ## free-genai-bootcamp-2025
@@ -60,3 +60,7 @@ Teachers:
 - **Cloud**: AWS, Azure, GCP
 - **AI/ML**: Hugging Face, Lightning.AI, Intel Tiber Developer Cloud, CIVO
 - **Dev & Deployment**: GitHub, Gitpod, Codespaces, MongoDB, Lucid Charts, Vercel/v0
+
+to do
+
+- make the kana-writing to french
