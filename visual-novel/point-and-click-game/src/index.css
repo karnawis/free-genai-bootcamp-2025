@@ -1,0 +1,48 @@
+@import 'assets/styles/typography.css';
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+:root {
+    --primary: theme(colors.primary);
+    --dark: theme(colors.dark);
+    --light: theme(colors.light);
+    --completed: theme(colors.completed);
+    background-color: var(--primary);
+}
+
+html {
+    background-color: var(--primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: var(--light);
+}
+.puzzle-not-completed {
+    color: var(--light);
+    color: transparent;
+    display: none;
+    transition: display 0s linear 0.7s, opacity 0.7s linear;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+    opacity: 0;
+}
+
+.puzzle-completed {
+    color: var(--completed);
+    display: inline;
+    transition: display 0s linear 0.7s, opacity 0.7s linear;
+    opacity: 1;
+    transition-duration: .15s;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(.4,0,.2,1);
+}
+
+.verb-inactive {
+    text-decoration: none;
+}
+
+.verb-active {
+    text-decoration: underline;
+}

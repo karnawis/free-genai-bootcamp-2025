@@ -1,0 +1,8 @@
+@font-face {
+    font-family: 'facade-quest';
+    src: local('facade-quest'), url(./fonts/velvetyne-facade-quest/Facade-Sud.woff) format('woff');
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'facade-quest', sans-serif;
+}

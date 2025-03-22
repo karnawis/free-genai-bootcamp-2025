@@ -4,12 +4,16 @@ This course is ran by Andrew Brown ([exampro.com](https://exampro.co/exp-genai-0
 
 ### My learning projects
 
-[AI Systems architecuring](https://github.com/karnawis/free-genai-bootcamp-2025/tree/main/genai-architecting)
-[OPEA](https://github.com/karnawis/free-genai-bootcamp-2025/tree/main/opea)
-[frontend-angular](https://github.com/karnawis/free-genai-bootcamp-2025/tree/main/lang-portal/frontend-angular)
-[frontend-react](https://github.com/karnawis/free-genai-bootcamp-2025/tree/main/lang-portal/frontend-react)
-[backend-flask](https://github.com/karnawis/free-genai-bootcamp-2025/tree/main/lang-portal/backend-flask)
-[vocabulary-importer](https://github.com/karnawis/free-genai-bootcamp-2025/tree/main/vocabulary-importer)
+- working project
+  [point and click game](visual-novel/point-and-click-game/README.md)
+
+* [AI Systems architecuring](https://github.com/karnawis/free-genai-bootcamp-2025/tree/main/genai-architecting)
+* [OPEA](https://github.com/karnawis/free-genai-bootcamp-2025/tree/main/opea)
+* [frontend-angular](https://github.com/karnawis/free-genai-bootcamp-2025/tree/main/lang-portal/frontend-angular)
+* [frontend-react](https://github.com/karnawis/free-genai-bootcamp-2025/tree/main/lang-portal/frontend-react)
+* [backend-flask](https://github.com/karnawis/free-genai-bootcamp-2025/tree/main/lang-portal/backend-flask)
+* [vocabulary-importer](vocabulary-importer/readme.md)
+* [visual novel](visual-novel/READMe.md)
 
 ### Andew's Repository
 
