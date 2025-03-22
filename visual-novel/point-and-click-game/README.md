@@ -5,6 +5,8 @@ A game that was used with Co-pilot coding assistent and amazon Q, the image was 
 Originally created for Amazon AI Games Hakathon
 [Clockpax](https://github.com/karnawis/clockpax)
 
+![Clockpax Game Screenshot](fefe.png)
+
 # Running app
 
 npm 23
