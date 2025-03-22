@@ -6,6 +6,9 @@ This course is ran by Andrew Brown ([exampro.com](https://exampro.co/exp-genai-0
 
 - working project
   [point and click game](visual-novel/point-and-click-game/README.md)
+  Screenshot for game ![point and click game](visual-novel/point-and-click-game/fefe.png)
+  
+  
 
 * [AI Systems architecuring](https://github.com/karnawis/free-genai-bootcamp-2025/tree/main/genai-architecting)
 * [OPEA](https://github.com/karnawis/free-genai-bootcamp-2025/tree/main/opea)
@@ -59,12 +62,15 @@ Teachers:
 
 - Chris
 
-## **Required Familiarity with **
+**Required Familiarity with **
 
 - **Cloud**: AWS, Azure, GCP
 - **AI/ML**: Hugging Face, Lightning.AI, Intel Tiber Developer Cloud, CIVO
 - **Dev & Deployment**: GitHub, Gitpod, Codespaces, MongoDB, Lucid Charts, Vercel/v0
 
 to do
-
+* make a dev.to blog
+** write about prompting, models, basic understanding 
 - make the kana-writing to french
+
+
